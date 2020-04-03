@@ -1,0 +1,55 @@
+﻿body{background-color: #f0f0f0;}
+
+.head{background-color: #fff;padding-bottom:10px;border-bottom:2px solid #0ca549;}
+.top_left a{margin-right:0;}
+.quick{margin:0px auto;margin-top:20px;margin-bottom:60px;}
+.quick_all{width:1200px;margin:0px auto;padding-bottom: 40px; background-color:#fff;box-shadow:0px 0 10px  rgba(0,0,0,0) inset, 0px 0 10px  rgba(0,0,0,0) inset, 0 0px 10px rgba(0,0,0,0) inset, -1px 15px 23px -10px #bfbfbf;}
+.crumb{margin-top: 0; padding-top: 27px;}
+
+.search{width: 1140px; height: auto;margin: 20px 0 0 0; overflow: hidden;}
+.search strong{display: block;float: left;font-size: 13px;margin: 21px 0 0 0; width: 110px; text-align: right;line-height: 24px; font-weight: normal;}
+.search p{display: block;float: left; padding: 0 0 0 10px;margin: 21px 0 0 0;width: 255px;text-align: right;}
+.search p.btn{width: 100px;}
+.search label{margin-right: 10px;line-height: 24px;height: 24px;vertical-align: middle;color: #666666;}
+.search input[type='text']{width: 253px;}
+.search select{width: 160px;}
+.search button{background-image: url(../images/select.png);background-repeat:no-repeat; width: 90px; height: 26px; border-width: 0;background-color:transparent;outline:none; }
+/*生成订单*/
+.build_order{border-top:2px solid #0ca549;width:1132px;margin:20px 0 0 30px;}
+.build_order a{margin-top:33px;display:block;width:78px;height:24px;line-height:24px;text-align:center;border:1px solid #0ca549; color:#0ca549;border-radius:3px;margin-bottom:33px;}
+/*表格*/
+table{border-collapse: collapse;margin-top:15px;width:1140px;margin: 0 0 0 30px;}
+table thead th {vertical-align:baseline;border:1px solid #e7e7e7;letter-spacing:1px;text-transform: uppercase;
+                padding:3px;line-height:20px;background:#e4e4e4;text-align:center;padding:10px 5px;} 
+table tbody tr:nth-child(odd){background:#ffffff;}
+table tbody tr:nth-child(even){background:#f4f4f4;}
+table tbody tr td {border:1px solid #e7e7e7;text-align:center;padding:10px 10px 10px 10px;line-height:22px;}
+table tbody em.up{display: block; float: left; background-position:-55px -34px; width: 20px; height: 20px;cursor:pointer;}
+table tbody em.down{display: block; float: left;background-position:-78px -33px;width: 20px; height: 20px;cursor:pointer;}
+/*浏览过的商品*/
+.browse{line-height:90px;font-weight:600;margin-left:31px;font-size:16px;}
+/*面包屑*/
+.crumb{margin-left:32px;}
+/*底部轮播*/
+.mid_banner{overflow:hidden;width: 1130px; margin-left: 25px;}
+.carousel_four{background-color:#fff;height: 310px;}
+.mid_banner .carousel{float:left;height:154px;text-align:center;margin:0px auto;  line-height: 20px;position:relative;}
+.mid_banner .carousel div{border-right:1px solid #e7e7e7;height:153px;padding:1px;}
+.mid_banner .carousel .durg_typelist p{text-align:left;margin-left:18px;line-height:20px;}
+.mid_banner .carousel .durg_typelist p.title{font-size: 14px; color: #000;line-height:26px;}
+.carousel .specifications b{color:red;}
+.carousel .specifications span{font-weight:bold; margin-left:45px;}
+.carousel .durg_typelist .drug_nunber span{margin-left:10px;}
+.carousel .durg_typelist .quilck_img{width:160px; height:160px; border:1px solid #e7e7e7;  margin-left: 14px;  margin-bottom: 15px; *margin-left:5px;}
+.carousel .durg_typelist .quilck_img img{margin:0px auto ; text-align:center; height:160px;width:160px;}
+.mid_banner .carousel .drugsdal {margin-top:6px;}
+.mid_banner .carousel .selling{ position: absolute; top: 0px;right: 0px;}
+.mid_banner .carousel div{border-right:0px;}
+
+/*分页器*/
+.swiper-pagination{height: 20px; position: absolute;  bottom: 0px;right: 45%; z-index:1;}
+.swiper-pagination span{margin-left: 4px;cursor:pointer;border-radius:8px; }
+.swiper-pagination-switch{display: block; float: left; width:12px; height:12px; background-color: #dbdbdb;}
+.swiper-active-switch{background-color: #0ca549;}
+.swiper-pagination-bullet{background-color:#fff;opacity:1;}
+.swiper-pagination-bullet-active{background-color:#009334;opacity:1;}

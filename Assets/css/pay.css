@@ -1,0 +1,31 @@
+﻿body{background-color: #f0f0f0;}
+.head{padding-bottom:10px;border-bottom:2px solid #0ca549; background-color: #fff;}
+.order-pay{padding-bottom: 60px;}
+.order-pay-center{ width: 1200px;background-color: white;margin-top: 20px; margin-left: auto;margin-right: auto;box-shadow:0px 0 10px  rgba(0,0,0,0) inset, 0px 0 10px  rgba(0,0,0,0) inset, 0 0px 10px rgba(0,0,0,0) inset, -1px 15px 23px -10px #bfbfbf;}
+.pay-font{ margin-left: 25px;padding-top: 25px;font-size: 16px;}
+.pay-font span{ color: #014fa2;font-size: 16px;}
+.pay-detail{ width: 1146px;height: 66px;background-color: #c7ead5;margin-left: 25px;margin-top: 41px; }
+.pay-info{ float: left;margin-left: 25px;line-height: 66px;}
+.pay-info p:nth-child(1) span{ font-size: 16px;}
+.paymoney{ font-size:20px;margin-left: 931px;line-height: 66px; }
+.paymoney span{font-size:20px; color: red;}
+.pay-font-two{ margin-top: 40px;font-size: 16px;margin-left: 25px;width: 1146px;height: 43px;background-color: #c7ead5; }
+.pay-font-two span{ margin-left: 25px;font-size:14px;line-height: 44px;}
+.pay-bank-virtual { margin-left: 25px;margin-top: 31px;line-height: 41px;}
+.pay-bank-virtual a{ color: red;text-decoration: underline;}
+.pay-fontz {margin-left: 15px;margin-top: 40px;}
+.pay-fontz span{margin-left: 15px; font-size: 16px;}
+.pay-bank-virtual .pay-radio2{ margin-left: 70px;}
+.pay-bank .pay-radio2{ margin-left: 110px;}
+.pay-bank{ margin-top: 31px;margin-left: 25px;}
+.pay-bank input{margin-top: 12px;}
+.immediately-pay{display: block;margin-left: 1016px;padding: 90px 0 50px 0;width: 80px;height: 27px;  }
+.immediately-pay:hover{cursor:pointer}
+.pay-pop-up{ width: 403px;height: 212px;text-align: center;font-size: 14px;border: 1px solid black;display: none;  position: absolute;top: 50%;left:30%;margin-left: 40px;background-color: #ffffff;margin-top: -150px;z-index: 10001;}
+.pop-font-one{ margin-top: 61px;}
+.pop-font-two{ margin-top: 15px;}
+.Pay-ok{ width:109px;height:30px; border-radius:3px;border:1px solid #c7ead5; display: block;line-height: 30px;float: left;margin-left: 80px;}
+.Pay-no{ width:109px;height:30px; border-radius:3px;border:1px solid #c7ead5; display: block;line-height: 30px;float: left;margin-left: 30px;}
+.ok-on{ margin-top: 26px;}
+.dsny{display: none;}
+.mask{display: none; position: absolute;width: 100%;height: 100%;top: 0;left: 0;z-index: 10000;background-color: rgba(0,0,0,0.5);}

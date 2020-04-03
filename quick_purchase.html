@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>快速购买</title>
+    <link href="Assets/Plugins/swiper/dist2/idangerous.swiper.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/shopquick.css" rel="stylesheet" />
+    <link href="Assets/css/quick_purchase.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/Plugins/swiper/dist2/idangerous.swiper.min.js"></script>
+    <script src="Assets/js/comm.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var mySwiper = new Swiper('.carousel_four', {
+                paginationClickable: true,
+                loop: true,
+                pagination: '.swiper-pagination',
+                slidesPerView: 6
+                //autoplay: 5000
+            });
+      
+        });
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        你好，欢迎来到中国医药网！
+                        <a href="javascript:void(0);">请登录</a><span> | </span>
+                        <a href="javascript:void(0);">免费注册</a><span> | </span>
+                        <a href="javascript:void(0);">全国服务热线:</a>
+                        <a class="tel">400-000-0000</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  logo部分-->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <img src="Assets/images/trademark.png" alt="" />
+                    <img src="Assets/images/line.png" alt="" />
+                </div>
+                <div class="logo_pro">
+                    <a class="logo_a">全国医药一站式销售平台</a>
+                    <div class="country ">
+                        <div class="switchcity"><span class="area_icon"></span><span id="sitename">全国站</span><span class="down_icon"></span></div>
+                        <ul>
+                            <li class="hotcity">热门城市</li>
+                            <li><a data-id="1" href="javascript:void(0);">北京</a></li>
+                            <li><a data-id="2" href="javascript:void(0);">上海</a></li>
+                            <li><a data-id="3" href="javascript:void(0);">杭州</a></li>
+                            <li><a data-id="4" href="javascript:void(0);">天津</a></li>
+                            <li><a data-id="5" href="javascript:void(0);" class="cur">重庆</a></li>
+                            <li><a data-id="6" href="javascript:void(0);">湖北</a></li>
+                            <li><a data-id="7" href="javascript:void(0);">南京</a></li>
+                            <li><a data-id="8" href="javascript:void(0);">安徽</a></li>
+                            <li><a data-id="9" href="javascript:void(0);">辽宁</a></li>
+                            <li><a data-id="10" href="javascript:void(0);">湖南</a></li>
+                            <li><a data-id="11" href="javascript:void(0);">海南</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <input type="text" value="" class="inputText" style="height: 31px;" />
+                <img src="Assets/images/search.png" />
+               <div class="shop_opera">
+                    <a href="javascript:void(0);" class="shop_search">商品搜索</a>
+                    <a href="javascript:void(0);">地铺搜索</a>
+                    <a href="javascript:void(0);">快速搜索</a>
+                </div>
+                <p>
+                    <a class="hotsearch">热门搜索：</a>
+                    <a href="javascript:void(0);">阿莫西林胶囊</a><span> | </span>
+                    <a href="javascript:void(0);">感冒清热颗粒</a><span> | </span>
+                    <a href="javascript:void(0);">小儿感冒颗粒</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--主体-->
+    <div class="quick">
+        <div class="quick_all">
+            <div class="crumb">
+                首页><span>店铺搜索</span>
+            </div>
+            <!--查询-->
+            <div class="search">
+                <strong class="clear">通用名：</strong><p>
+                    <input type="text" value="" />
+                </p>
+                <strong>化学名：</strong><p>
+                    <input type="text" value="" />
+                </p>
+                <strong>生产厂家：</strong><p>
+                    <input type="text" value="" />
+                </p>
+                <strong class="clear">供应商：</strong><p>
+                    <input type="text" value="" />
+                </p>
+                <strong></strong>
+                <p></p>
+                <strong></strong>
+                <p>
+                    <button type="submit" class="load"></button>
+                </p>
+            </div>
+
+            <!--生成订单-->
+            <div class="build_order">
+                <a href="javascript:void(0);">生成订单</a>
+            </div>
+
+            <!--表格-->
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" name="chklist" /></th>
+                        <th>通用名</th>
+                        <th>化学名</th>
+                        <th>包装规格</th>
+                        <th>生产厂家</th>
+                        <th>供应商</th>
+                        <th>单价</th>
+                        <th>税率</th>
+                        <th>计价单位</th>
+                        <th>箱规</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chklist" /></td>
+                        <td>胃康灵</td>
+                        <td>阿莫西林</td>
+                        <td>1相/12支</td>
+                        <td>江苏上海有限公司 </td>
+                        <td>江苏上海有限公司</td>
+                        <td>20元/1相</td>
+                        <td>20%</td>
+                        <td>元</td>
+                        <td>10盒/相</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--浏览过的商品-->
+            <p class="browse">浏览过的商品</p>
+
+            <!--轮播图-->
+            
+            <div class="middle">
+                <!--banner轮播图-->
+                <div class="mid_banner">
+                    <!--小图轮播-->
+                    <div class="swiper-container carousel_four">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+                                    <div class="quilck_img">
+                                        <a href="#"><img src="Assets/images/quitlitybuy_01.png" /></a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+
+                                    <div class="quilck_img">
+                                        <a href="#">
+                                            <img src="Assets/images/quitlitybuy_02.png" />
+                                        </a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+                                    <div class="quilck_img">
+                                        <a href="#">
+                                            <img src="Assets/images/quitlitybuy_03.png" />
+                                        </a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+                                    <div class="quilck_img">
+                                        <a href="#">
+                                            <img src="Assets/images/quitlitybuy_04.png" />
+                                        </a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+                                    <div class="quilck_img">
+                                        <a href="#">
+                                            <img src="Assets/images/quitlitybuy_05.png" /></a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide carousel">
+                                <div class="durg_typelist">
+                                    <div class="quilck_img">
+                                        <a href="#">
+                                            <img src="Assets/images/quitlitybuy_01.png" /></a>
+                                    </div>
+                                    <p class="title">百服宁</p>
+                                    <p class="specifications"><b>￥5.5</b><a>/盒</a></p>
+                                    <p class="drug_nunber"><a>乙酰氨基酚</a> <span>规格10粒/盒</span></p>
+                                    <p>国控天津有限公司</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--浮动栏展示-->
+        <div class="exhibitionbar">
+            <a href="javascript:void(0);">
+                <img src="Assets/images/shopcar.png" />
+                <p class="ex_shop">购</p>
+                <p class="ex_shop">物</p>
+                <p class="ex_shop">车</p>
+            </a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/money.png" /></a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/like.png" /></a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/collect.png" /></a>
+            <a href="#">
+                <img src="Assets/images/top.png" class="ex_top" />
+                <p class="ex_shop">top</p>
+            </a>
+        </div>
+    </div>
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+    <!--浮动栏展示-->
+    <div class="exhibitionbar">
+        <a href="javascript:void(0);" class="shopping">
+            <img src="Assets/images/shopcar.png" />
+            <p class="ex_shop">购</p>
+            <p class="ex_shop">物</p>
+            <p class="ex_shop">车</p>
+        </a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/money.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/like.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/collect.png" /></a>
+        <a href="#">
+            <img src="Assets/images/top.png" class="ex_top" />
+            <p class="ex_shop">top</p>
+        </a>
+    </div>
+    <div class="shopquick">
+        <!--头部选择部分-->
+        <div class="city top">
+            <span class="top-all">
+                <input type="checkbox" name="all" /></span>
+            <span>全选</span>
+            <span class="top-look"><a href="#">全屏查看</a></span>
+        </div>
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>江苏省分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_04.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+       
+
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>天津市分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_01.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">736.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_02.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_03.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_05.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+        <div class="h1"></div>
+
+        <div class="city sm2-context">
+            <span class="select">已选择<span class="num">5</span>件</span>
+            <span class="allmoney">368.00</span>
+        </div>
+
+        <div class="city sm3-context">
+            <button type="button"></button>
+        </div>
+    </div>
+</body>
+</html>

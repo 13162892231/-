@@ -1,0 +1,33 @@
+﻿body{background-color: #f0f0f0;}
+.head{border-bottom:2px solid #0ca549; background-color: #fff;}
+.searchshop{width:100%;padding-bottom:60px;}
+.searchshop .searchshop_main{width:1200px;background-color:#fff;margin:20px auto 0 auto;overflow:hidden;height:auto;box-shadow:0px 0 10px  rgba(0,0,0,0) inset, 0px 0 10px  rgba(0,0,0,0) inset, 0 0px 10px rgba(0,0,0,0) inset, -1px 15px 23px -10px #bfbfbf;}
+.searchshop_main p.related_shops{margin-left:38px;line-height:45px;}
+.searchshop_main p.related_shops em{font-style:normal;color:#ce0808;}
+
+.main{margin-left:41px;}
+.main .shop_introduce{float:left;width:216px;min-height:305px;background-color:#f8f8f8;}
+.main .shop_introduce img{border:1px solid #e7e7e7;}
+.shop_introduce p{padding: 0 20px;line-height: 24px;color: #7d7d7d;}
+.shop_introduce p.shopname{color:#0ca549;font-weight:600;margin:20px 0 0 0;font-size: 14px;}
+.shop_introduce p.shoptitle{color: #000; margin-top: 6px;}
+.shop_introduce p.shopcontent{line-height:20px;}
+
+/*商品列表*/
+.shop_list{float:left;overflow:hidden;width:900px;}
+.shop_list .goodsname{width:185px; float:left; margin-left:40px;line-height:25px;margin-bottom:20px;}
+.shop_list .goodsname .goods_shops {display:block;width: 180px; height:180px; border:1px solid #e7e7e7;}
+.shop_list .goodsname .goods_shops img {width: 180px; height:180px;}
+.shop_list .goodsname p{text-align:left; font-size: 12px;line-height:20px; color: #7d7d7d;}
+.goodsname p.drup_name{font-size: 14px;margin-top:10px; color: #000;}
+.goodsname p.goods_price {font-weight:bold; color:red;font-size:18px;line-height:35px;}
+.goodsname p.goods_price .singerle{font-size:14px; font-weight:normal; color:#333333;}
+
+.crumb{margin-left:38px;}
+/*进入店铺*/
+.entershop{width:1114px;border-bottom:1px solid #e7e7e7;float:left;margin-top:20px;margin-bottom:30px;}
+.entershop a{display:block;width:180px;height:25px;background-color:#f1f1f1;float:right;color:#333333;border-radius:4px;line-height:25px;text-align:center;margin-bottom:50px;}
+.entershop a span{margin-left:40px;}
+
+/*分页*/
+.pagelist{float:left;width:1123px;}

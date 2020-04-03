@@ -1,0 +1,30 @@
+﻿.orderCentent{padding:35px 0 0 31px;}
+.orderTitle p  {font-size:16px;font-weight:normal;}
+.orderTitle p  a{font-size:16px;color:#044ea3;}
+.orderBase tr{height:53px;}
+.orderBase tr td p{font-size:14px;}
+.orderBase span{color:#333333;}
+.orderBase{width:1145px;background-color:#c7ead5;}
+.ordernumber span{background-color:#29d36d;box-shadow: 0 -17px 44px -11px #999999 inset;}
+.progressBar div{ width:auto;}
+.numbertitle td{text-align:left;  padding-left: 93px;width:25%;}
+.numbertitle td p{margin-left:-25px;margin-top:10px;}
+.numbertitle td:first-child p{color:#29d36d;}
+.numbertitle td:nth-child(2) span{margin-left:-11px;}
+.numbertitle td:nth-child(4) span{margin-left:14px;}
+.logisticsTable .lasttd {padding-bottom:0px;}
+.numbertitle{margin-bottom:60px;}
+.orderMessage{width:1132px; background-color:#c7ead5;color: #333333; font-weight:bold;}
+.logisticsTable{width:1145px;margin-bottom: 45px;}
+.logisticsTable th{width:40%;}
+.progressBar{  padding-top:0px;}
+
+.orderCentent .detailsinfo{width:1145px;padding-bottom: 226px;}
+.orderCentent .detailsinfo ul li {float:left; margin-left:100px;margin-bottom:30px;}
+.orderCentent .detailsinfo ul{border:1px solid #c7ead5;height:43px; line-height:43px;}
+.orderCentent .detailsinfo > ul{background-color:#c7ead5;}
+.orderCentent .detailsinfo ul li:first-child {font-weight:bold; border-right:1px solid #dddddd;  width: 170px; }
+.orderCentent .detailsinfo ul li a.retractall{float: right; color:#333333;font-weight:bold;margin-right: 20px;}
+.orderCentent .detailsinfo .retract ul:nth-child(4) li:first-child{padding-bottom:50px;}
+.orderCentent .detailsinfo>ul li:first-child{border-right:1px solid #dddddd;  padding-right: 690px;}
+.menuphoto{width:1114px;height: 79px;margin-left: 43px;margin-bottom: 20px;}

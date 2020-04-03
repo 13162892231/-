@@ -1,0 +1,80 @@
+﻿/*头部*/
+.top_all{background-color:white;}
+.navigation_main .navigation,.navigation_main .personalcenter{width:1200px; margin :0px auto ; line-height:58px;}
+.top_left a img{margin-top:6px;}
+.top_left a{margin-right:30px;}
+.navigation_main{background-color:#0ca549; height:58px;}
+.navigation_main span{font-size:24px; color:white;margin-right:65px;}
+.navigation_main a{font-size:14px; color:white;margin-left:74px;}
+.navigation_main .navigation img{margin-top:51px;  position: absolute; margin-left: -21px;}
+.navigation_main .navigation .serchar{width:290px; height:22px; background-color:white;float:right;  margin-top: 15px;}
+.navigation_main .btn {width:63px;height:26px; float:right; background-color:#f0f0f0;  margin-top: 16px;border:none;}
+
+/*main*/
+.all_main{background-color:#f8f6f4;padding-bottom:190px;}
+/*.main{width:1200px;margin:0px auto;height:834px; background-color:white; overflow: hidden;}*/
+
+/*左边导航*/
+.nav_left{width:152px; height:834px; background-color:#f8f6f4;float:left;border:1px solid #dedede;}
+.all_main{background-color:#f0f0f0;overflow:hidden;}
+.all_main .main{width:1200px; margin :0px auto;padding-top:25px;  overflow: hidden;}
+.main .nav_left{width:152px; height:849px; background-color:#f8f6f4;float:left;border:1px solid #dedede;  margin-left: 9px;}
+.main .nav_left img:first-child{margin:23px 0 0 40px;}
+.main .nav_left .personal_center_01 {position:relative;  margin-left: -6px;}
+.main .nav_left .personal_center_01 img{margin:-1px 0 0 0; }
+.main .nav_left .personal_center_01 p:nth-child(2){ top: 9px;left:61px; position: absolute;}
+.main .nav_left .personal_center_01 img:nth-child(3){top:38px;left:0px; position: absolute;}
+.main .nav_left .personal_center_01 p img{position:absolute; top:8px; left:68px;}
+
+.main .nav_left .password ul li {list-style-type:square;border-bottom:1px solid #c2c2c2 ;  padding-left: 55px;  padding-bottom: 10.5px; padding-top:10.5px;margin-left: 6px;}
+
+/*右边*/
+
+/*.main .nav_right .returnservice p:first-child {font-size:16px; font-weight:bold; margin:27px 0 0 32px;}
+.main .nav_right .returnservice p:nth-child(2) a:nth-child(1){  width: 112px; background-color: #0ca549;  line-height: 33px; color: white; font-size: 14px; margin: 35px 32px 0 0px; display: block;text-align: center; float: left; font-weight:bold;}
+.main .nav_right .returnservice p:nth-child(2) a:nth-child(2){  width: 112px; background-color: white;  line-height: 33px; color: #333333; font-size: 14px; margin: 35px 0 0 0px; display: block;text-align: center; float: left; font-weight:bold;}*/
+/*.main .nav_right .returnservice p:nth-child(2){  overflow: hidden; border-bottom: 2px solid #0ca549; width:975px;margin-left:32px;}
+.returnservice .searchtext{width:239px; height:25px;float:left;outline:none; padding-left:10px; }
+.returnservice p:nth-child(3),.returnservice p:nth-child(4),.returnservice p:nth-child(5){ margin :21px 0 0 32px;overflow:hidden;font-weight:bold;}
+.returnservice p:nth-child(3) a:nth-child(2){font-weight:bold; width:50px; height:31px; background-color:#a0a0a0; color:white; text-align:center; line-height:31px; display:block; float:left;}*/
+
+/*.nav_right .returnservice p:nth-child(3) select,.nav_right .returnservice p:nth-child(4) select {margin-left:44px;width:173px;height:21px;}
+.nav_right .returnservice p:nth-child(3) input,.nav_right .returnservice p:nth-child(5) input {margin-left:43px;}
+.nav_right .returnservice p:nth-child(3) span:nth-child(3),.nav_right .returnservice p:nth-child(4) span:nth-child(3) {margin-left:65px;}
+.nav_right .returnservice p:nth-child(3) input:nth-child(4){margin-left:43px;}
+.nav_right .returnservice p:nth-child(3) span:nth-child(5){margin-left:65px;} 
+.nav_right .returnservice p:nth-child(4) input:nth-child(4){margin-left:43px;}
+.nav_right .returnservice p:nth-child(4) a{width:78px; height:21px;background-color:#0ca549; color:white; display:block; float:right;text-align:center; line-height:21px;border-radius:3px; margin-right:123px;}*/ 
+
+
+/*表格*/
+table{border-collapse: collapse;margin-left:31px; margin-top:48px;}
+table tr:first-child{background-color:#f0f0f0;font-weight:bold;}
+table tr:first-child td:nth-child(3),table tr:first-child td:nth-child(5){text-align:center}
+table tr td {border:1px solid #c2c2c2;text-align:center;}
+table tr td:first-child,table tr td:nth-child(2) {width:125px;height:75px;}
+table tr td:nth-child(3){width:127px;text-align:left; padding:10px;}
+table tr td:nth-child(4),table tr td:nth-child(6),table tr td:nth-child(7){width:95px;}
+table tr td:nth-child(8){width:135px;}
+table tr td:nth-child(5){width:133px;padding:10px;text-align:left;}
+
+/*分页*/
+.pagelist ul{overflow:hidden;display:block;position:relative;margin:103px 0 0 515px;}
+.pagelist ul li {  float: left; border: 1px solid #cbcbcb; height: 25px;  line-height: 20px;  margin: 0px 2px;}
+.pagelist ul li a{ display: block; padding: 0px 10px;  background: white; line-height:22px;}
+
+
+
+/*选项卡*/
+.nav_right .returnservice p:first-child,.nav_right .returnservice p:nth-child(2) {margin:35px 0 0 31px;font-weight: bold;}
+.main .nav_right {float:left;background-color:white;height: 849px;width:1036px;border:1px solid #c2c2c2; border-left:none;}
+.main .nav_right .returnservice>p:first-child {font-size:16px; font-weight:bold;margin-top:25px; margin-left:31px;}
+
+
+#tabbox{overflow:hidden; margin:0 auto;margin-top:30px;}
+.tab_conbox{border-top: none;}
+.tab_con{ display:none;}
+.tabs{height:32px;width:945px;height:31px; overflow: hidden; border-bottom: 2px solid #0ca549; margin-left: 32px;}
+.tabs li{height:31px;line-height:31px;float:left;overflow: hidden;position: relative;}
+.tabs li:first-child a {display: block;padding: 0 10px;outline: none;background-color:#0ca549;  color: white;}
+.tabs li:last-child{margin-left:15px;}.tab_conbox>.tab_con>p:first-child>input:nth-child(2),.tab_conbox>.tab_con>p:first-child>input:nth-child(4){margin-left:38px;}.tab_conbox>.tab_con>p:first-child>span:nth-child(3),.tab_conbox>.tab_con>p:first-child>span:nth-child(5) {margin-left:38px;}.tab_conbox>.tab_con>p:first-child>select{width:173px; margin-left:38px;}.tab_conbox>.tab_con>p:nth-child(2)>input:nth-child(4){margin-left:38px;}.tab_conbox>.tab_con>p:nth-child(2)>span:nth-child(3),.tab_conbox>.tab_con>p:first-child>span:nth-child(5) {margin-left:38px;}.tab_conbox>.tab_con>p:nth-child(2)>select{width:173px; margin-left:38px;}.tab_conbox>.tab_con>p:nth-child(2)>a:nth-child(5){width:76px; height:25px; background-color:#004ea1; margin-right:38px;display:block;float:right;margin-right:195px; color:white;line-height:25px; text-align:center; border-radius:3px;}

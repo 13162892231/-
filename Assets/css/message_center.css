@@ -1,0 +1,74 @@
+﻿
+/*左边栏-个人中心*/
+.middle{background-color:#f0f0f0;}
+.middle .personalcenter{width:1200px; margin :0px auto;padding-top:25px;  overflow: hidden;}
+.personalcenter .personal_center{width:152px; height:896px; background-color:#f8f6f4;float:left;border:1px solid #dedede;  margin-left: 9px;}
+.personalcenter .personal_center img:first-child{margin:23px 0 0 40px;}
+.personalcenter .personal_center .personal_center_01 {position:relative;  margin-left: -6px;}
+.personalcenter .personal_center .personal_center_01 img{margin:-1px 0 0 0; }
+.personalcenter .personal_center .personal_center_01 p:nth-child(2){ top: 0px;left: 7px; position: absolute;}
+.personalcenter .personal_center .personal_center_01 img:nth-child(3){top:38px;left:0px; position: absolute;}
+.personalcenter .personal_center .personal_center_01 p img{position:absolute; top:8px; left:54px;}
+
+.personalcenter .personal_center .personal_center_02 {position:relative;  margin-left: -6px;}
+.personalcenter .personal_center .personal_center_02 img{margin:-1px 0 0 0; }
+.personalcenter .personal_center .personal_center_02 p:nth-child(2){ top: 0px;left: 7px; position: absolute;}
+.personalcenter .personal_center .personal_center_02 img:nth-child(3){top:38px;left:0px; position: absolute;}
+.personalcenter .personal_center .personal_center_02 p img{position:absolute; top:8px; left:54px;}
+.personalcenter .personal_center .password ul li {list-style-type:square;border-bottom:1px solid #c2c2c2 ;  padding-left: 62px;  padding-bottom: 7px; padding-top: 7px;}
+.personalcenter .personal_center p:nth-child(2){margin-top:10px; font-weight:bold; color:#333333;  margin-left: 60px;}
+.personalcenter .personal_center p:nth-child(3){margin-top:10px;color:#333333;margin-bottom:15px;  margin-left: 60px;}
+/*小图标显示隐藏*/
+.personalcenter .personal_center .personal_center_01 .password {display:block; margin-left:6px;}
+.personalcenter .personal_center .passwordanminal {display:none;}
+
+
+
+/*平台信息*/
+.personalcenter .platformmessage{width:1035px; height:894px;background-color:white;float:left; border:1px solid #e2e2e2; border-left:none;}
+.personalcenter .platformmessage_left{overflow:hidden;}
+.personalcenter .platformmessage_left .ptinfo,.personalcenter .platformmessage_left .browserecord {font-size:16px; color:#333333; font-weight:bold; padding: 34px 30px 15px 0px;width:693px; border-bottom:1px solid #eeeeee;  margin-left: 31px;}
+.personalcenter .platformmessage_left .all_read .allread {width:85px;background-color:#f0f0f0;line-height: 26px; color: #666666; font-size: 14px;margin:35px 0 0 0px;display:block; text-align:center;float:left;}
+.ywinfo_child .ywinfo_child_state a{display:block; background-color:#f0f0f0; color:#666666; width:80px; height:26px; line-height:26px; text-align:center; float:left; margin-left:32px; border-radius:3px; font-weight:bold;}
+.ywinfo_child .ywinfo_child_state {overflow:hidden;margin-top:23px;}
+.ywinfo_child table{margin-left:32px;border:1px solid  #cfcfcf;width:723px;margin-top:25px; border-bottom:none;}
+.ywinfo_child table tr {height:40px;}
+.ywinfo_child table td {border-bottom:1px solid #cfcfcf;}
+.ywinfo_child table .order_input {padding-left:5px;}
+.ywinfo_child table .order_img {padding:6px 0 0 20px;}
+.ywinfo_child table .order_ready{padding-left:20px;}
+.ywinfo_child table .order_time { padding-left:80px;}
+.platformmessage_right{float:right;}
+#tabbox .tabs .sysinfo {display: block;padding: 0 10px;outline: none;background-color:white;  color: #333;}
+.browserecord{}
+/*右部公告栏*/
+.platformmessage_right .notises span{font-weight:bold; font-size:16px; color:#333333;padding-left:10px;}
+.platformmessage_right .notises  a:nth-child(3){color:#0ca549; padding-left:95px;}
+.platformmessage_right .notises{margin-top:34px;padding-right:24px;}
+.platformmessage_right .notises p{line-height:30px;}
+.platformmessage_right .notises p:nth-child(4){border-top:1px solid #ededed;margin-top:15px; padding-top:6px;}
+.platformmessage_right .notises p img{margin-bottom:20px;border:1px solid #cfcfcf;}
+
+.platformmessage_right .notisestity span{font-weight:bold; font-size:16px; color:#333333;padding-left:10px;}
+.platformmessage_right .notisestity  a:nth-child(3){color:#0ca549; padding-left:95px;}
+.platformmessage_right .notisestity {margin-top:18px;padding-right:15px;}
+.platformmessage_right .notisestity p{line-height:30px;}
+.platformmessage_right .notisestity p:nth-child(4){border-top:1px solid #ededed;margin-top:15px; padding-top:14px;}
+.platformmessage_right .notisestity p img{margin-bottom:20px;border:1px solid #cfcfcf;}
+/*底部轮播图*/
+.carousel_five{background-color:#fff;width:730px;height:315px;padding: 30px 0 0 10px;}
+.carousel_five img{border:1px solid #e6e6e6;  padding: 3px 3px;}
+.carousel_five .browserecord {line-height:20px;margin-top:38px;}
+.carousel_five .browserecord p:nth-child(2){width:119px; margin-left:0px;margin-top:10px; border-bottom:none;}
+.carousel_five .browserecord p:nth-child(2) span{font-weight:bold;margin-right:20px;}
+.carousel_five .browserecord p:nth-child(3) span{color:red; font-weight:bold;}
+.carousel_five .browserecord .swiper-pagination {margin-top:100px;margin-left:100px;}
+
+.tabs{width:723px;}
+/*分页器*/
+.swiper-pagination-bullet{width:12px; height:12px; margin-left:7px;}
+.swiper-pagination-bullet-active{background-color:#009334;}
+.swiper-pagination{height: 20px; position: absolute;  bottom: 0px;right: 45%; z-index:1;  margin-bottom: 60px;width: 80px;}
+.swiper-pagination span{margin-left: 4px;cursor:pointer;border-radius:8px; }
+.swiper-pagination-switch{display: block; float: left; width:12px; height:12px; background-color: #dbdbdb;}
+.swiper-active-switch{background-color: #0ca549;}

@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>已买到的商品</title>
+    <link href="Assets/css/commodity_grounding.css" rel="stylesheet" />
+    <link href="Assets/css/quota_confirmation.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/purchased.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/js/return_service_buyer.js"></script>
+</head>
+<body>
+    <!--导航-->
+    <div class="messagecenter">
+        <!--导航-->
+        <div class="top_all">
+            <div class="top">
+                <!--个人中心-->
+                <div class="top_left">
+                    <a href="javascript:void(0);">您好，王拂春</a>
+                    <img src="Assets/images/footer_06.png" class="img1" /><a href="javascript:void(0);" class="msg">消息</a><img src="Assets/images/suppliersicon.png" class="img2" />
+                    <a href="javascript:void(0);">退出 </a>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="index_icon"></span>
+                        <a href="javascript:void(0);">平台首页</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation_main">
+            <div class="navigation">
+                <span>会员中心</span>
+                <ul>
+                    <li class="cur"><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">账户安全</a></li>
+                    <li><a href="javascript:void(0);">消息</a></li>
+                    <li><a href="javascript:void(0);">我的认证</a></li>
+                    <li class="search">
+                        <input type="button" value="搜索" class="btn" /><input type="text" value="" class="serchar" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="supplierrelation_main">
+        <div class="supplier">
+            <!--管理部分-->
+            <div class="supplier_left">
+                <div class="personal_center_01 icon01">
+                    <p>交易管理</p>
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">我的商品</a></li>
+                            <li><a href="javascript:void(0);">退换货服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01 icon02">
+                    <p>收藏管理</p>
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">收藏的商品</a></li>
+                            <li><a href="javascript:void(0);">收藏的店铺</a></li>
+                            <li><a href="javascript:void(0);">交易的店铺</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01 icon03">
+                    <p>资信管理</p>
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">额度确认</a></li>
+                            <li><a href="javascript:void(0);">额度查询</a></li>
+                            <li><a href="javascript:void(0);">账期确认</a></li>
+                            <li><a href="javascript:void(0);">账期查询</a></li>
+                            <li><a href="javascript:void(0);">月结日查询</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01 icon04">
+                    <p>资金管理</p>
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">返利确认</a></li>
+                            <li><a href="javascript:void(0);">返利查询</a></li>
+                            <li><a href="javascript:void(0);">应付管理</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01 icon05">
+                    <p>供应商管理</p>
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">加盟确认</a></li>
+                            <li><a href="javascript:void(0);">供应商信息</a></li>
+                            <li class="active"><a href="javascript:void(0);">供应商关系视图</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="purchased">
+                <div class="crumb">
+                    资信管理><span>额度确认</span>
+                </div>
+                <div class="rightTab">
+                    <div class="tab"><a href="javascript:;">所有订单</a></div>
+                    <div><a href="javascript:;">待审核 <span>3</span></a></div>
+                    <div><a href="javascript:;">代发货</a></div>
+                    <div><a href="javascript:;">待确认收获   </a></div>
+                    <div><a href="javascript:;">退还换   </a></div>
+                    <div><a href="javascript:;">代付款   </a></div>
+                </div>
+                <div class="searchfull">
+                    <div>
+                        <input type="text" placeholder="输入商品标题，商品编号或订单进行搜索" />
+                        <a href="javascript:;">订单搜索</a>
+                    </div>
+                    <div>
+                        <select>
+                            <option>更多搜索条件</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="load areaTitle ">
+                    <em class="load list"></em>
+                    <span>订单查询</span>
+                </div>
+                <div class="search">
+                    <strong>订单号：</strong>
+                    <p>
+                        <input type="text" value="" />
+                    </p>
+                    <strong>商品名称：</strong>
+                    <p>
+                        <input type="text" value="" />
+                    </p>
+                    <strong>订单状态：</strong>
+                    <p>
+                        <select>
+                            <option>全部状态</option>
+                        </select>
+                    </p>
+                    <strong class="clear">订单类型：</strong>
+                    <p>
+                        <select>
+                            <option>全部</option>
+                        </select>
+                    </p>
+                    <strong>成交时间：</strong>
+                    <p>
+                        <input type="text" value="" class="time_start" />
+                        <span>—</span>
+                        <input type="text" value="" class="time_start" />
+                        <a href="javascript:;">最近三天</a>&nbsp;&nbsp;&nbsp;<a href="javascript:;">最近一周</a>&nbsp;&nbsp;&nbsp;<a>最近一个月</a>
+                    </p>
+                    <strong>支付方式：</strong>
+                    <p>
+                        <select>
+                            <option>全部</option>
+                        </select>
+                    </p>
+                    <strong class="clear state">付款状态：</strong>
+                    <p class="state">
+                        <select>
+                            <option>全部状态</option>
+                        </select>
+                    </p>
+                    <strong class="state">到账日期：</strong>
+                    <p class="state datesearch">
+                        <select class="search_data">
+                            <option>按日查</option>
+                        </select>
+                        <input type="text" value="" class="time_start" />
+                        <span>—</span>
+                        <input type="text" value="" class="time_start" />
+
+                        <!--     &nbsp;&nbsp;&nbsp;   <a>最近三天</a>&nbsp;&nbsp;&nbsp;<a>最近一周</a>&nbsp;&nbsp;&nbsp;<a>最近一个月</a>-->
+                    </p>
+                    <strong class="state"></strong>
+                    <p class="state">
+                        <button type="submit" class="load"></button>
+                    </p>
+                    <strong class="hide_cancel">
+                        <input type="checkbox" value="" /></strong>
+                    <p class="latter">
+                        隐藏交易关闭 / 交易取消的订单
+                    </p>
+                    <p class="later">
+                        <a href="javascript:;">最近三天</a>&nbsp;&nbsp;&nbsp;<a href="javascript:;">最近一周</a>&nbsp;&nbsp;&nbsp;<a href="javascript:;">最近一个月</a>
+                    </p>
+                </div>
+
+                <div class="commodity_status">
+                    <div class="order_infomation">
+                        <a class="shop_info">商品信息</a>
+                        <a>单价（元）</a>
+                        <a>数量</a>
+                        <a>金额合计</a>
+                        <a>账期到期日</a>
+                        <a>付款状态</a>
+                        <a>订单状态</a>
+                        <a>操作</a>
+                    </div>
+                    <div class="order_num">
+                        <a>订单号：<span>&nbsp;&nbsp;782134198312634</span></a>
+                        <a>国药上海分公司</a>
+                        <a>2015-10-10</a>
+                        <a>9.99</a>
+                    </div>
+                    <div class="pur_introduct">
+                        <a>尊敬的客户，您的商品由于支付方式不同,所以你的订单被拆分为多个子订单分开处理，给您带来的不便还请谅解。</a>
+                    </div>
+                    <div class="order_all">
+                        <!--表格-->
+                        <div class="order_tit">
+                            <div class="order_border">
+                                <div class="order_title">
+                                    <a>子订单：<span>78621349661</span></a>
+                                    <a>付款方式：<span>预付款</span></a>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                        <td class="live_order">
+                                            <p>待发货</p>
+                                            <p>物流跟踪</p>
+                                        </td>
+                                        <td class="live_order">
+                                            <p><a href="javascript:void(0);" class="look_datail">查看详情</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="order_border">
+                                <div class="order_title">
+                                    <a>子订单：<span>78621349661</span></a>
+                                    <a>付款方式：<span>预付款</span></a>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                        <td rowspan="2" class="live_order">
+                                            <p>待发货</p>
+                                            <p>物流跟踪</p>
+                                        </td>
+                                        <td rowspan="2" class="live_order">
+                                            <p><a href="javascript:void(0);" class="sure_order">确认收货</a></p>
+                                            <p><a href="javascript:void(0);" class="look_datail">查看详情</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="order_border">
+                                <div class="order_title">
+                                    <a>子订单：<span>78621349661</span></a>
+                                    <a>付款方式：<span>预付款</span></a>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                        <td rowspan="2" class="live_order">
+                                            <p>待发货</p>
+                                            <p>物流跟踪</p>
+                                        </td>
+                                        <td rowspan="2" class="live_order">
+                                            <p><a href="javascript:void(0);">退换货</a></p>
+                                            <p><a href="javascript:void(0);">账期延迟</a></p>
+                                            <p><a href="javascript:void(0);" class="look_datail">查看详情</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="order_border">
+                                <div class="order_title">
+                                    <a>子订单：<span>78621349661</span></a>
+                                    <a>付款方式：<span>预付款</span></a>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="Assets/images/order_listshop_04.png" /></td>
+                                        <td>
+                                            <p>万邦医药 复方酮康唑软膏 10g</p>
+                                            <p>10粒/盒</p>
+                                        </td>
+                                        <td>
+                                            <p>0.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2</p>
+                                        </td>
+                                        <td>
+                                            <p>5.99</p>
+                                        </td>
+                                        <td>
+                                            <p>2015-9-26</p>
+                                        </td>
+                                        <td>
+                                            <p>已付款</p>
+                                        </td>
+                                        <td class="live_order">
+                                            <p>待发货</p>
+                                            <p>物流跟踪</p>
+                                        </td>
+                                        <td class="live_order">
+                                            <p><a href="javascript:void(0);">取消订单</a></p>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

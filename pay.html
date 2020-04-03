@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>订单支付</title>
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/shopquick.css" rel="stylesheet" />
+    <link href="Assets/css/pay.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/js/comm.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        你好，欢迎来到中国医药网！
+                        <a href="javascript:void(0);">请登录</a><span> | </span>
+                        <a href="javascript:void(0);">免费注册</a><span> | </span>
+                        <a href="javascript:void(0);">全国服务热线:</a>
+                        <a class="tel">400-000-0000</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  logo部分-->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <img src="Assets/images/trademark.png" alt="" />
+                    <img src="Assets/images/line.png" alt="" />
+                </div>
+                <div class="logo_pro">
+                    <a class="logo_a">全国医药一站式销售平台</a>
+                    <div class="country ">
+                        <div class="switchcity"><span class="area_icon"></span><span id="sitename">全国站</span><span class="down_icon"></span></div>
+                        <ul>
+                            <li class="hotcity">热门城市</li>
+                            <li><a data-id="1" href="javascript:void(0);">北京</a></li>
+                            <li><a data-id="2" href="javascript:void(0);">上海</a></li>
+                            <li><a data-id="3" href="javascript:void(0);">杭州</a></li>
+                            <li><a data-id="4" href="javascript:void(0);">天津</a></li>
+                            <li><a data-id="5" href="javascript:void(0);" class="cur">重庆</a></li>
+                            <li><a data-id="6" href="javascript:void(0);">湖北</a></li>
+                            <li><a data-id="7" href="javascript:void(0);">南京</a></li>
+                            <li><a data-id="8" href="javascript:void(0);">安徽</a></li>
+                            <li><a data-id="9" href="javascript:void(0);">辽宁</a></li>
+                            <li><a data-id="10" href="javascript:void(0);">湖南</a></li>
+                            <li><a data-id="11" href="javascript:void(0);">海南</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <input type="text" value="" class="inputText" style="height: 31px;" />
+                <img src="Assets/images/search.png" />
+                    <div class="shop_opera">
+                <a href="javascript:void(0);"class="shop_search">商品搜索</a>
+                <a href="javascript:void(0);">店铺搜索</a>
+                <a href="javascript:void(0);" >快速购买</a>
+                </div>
+                <p>
+                    <a class="hotsearch">热门搜索：</a>
+                    <a href="javascript:void(0);">阿莫西林胶囊</a><span> | </span>
+                    <a href="javascript:void(0);">感冒清热颗粒</a><span> | </span>
+                    <a href="javascript:void(0);">小儿感冒颗粒</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------内容-------------------------------------->
+    <div class="order-pay">
+        <div class="order-pay-center">
+            <div class="pay-font">首页><span>订单支付</span></div>
+            <div class="pay-detail">
+                <div class="pay-info">
+                    <p>
+                        请您及时付款，以便订单尽快处理！
+                        <span>订单号：977614748</span>
+                    </p>
+ 
+                </div>
+                <div class="paymoney">
+                    <span>666666.40</span>元
+                </div>
+            </div>
+            <div class="pay-fontz"><span>支付方式</span></div>
+            <div class="pay-font-two"><span>虚拟余额支付</span></div>
+             <div class="pay-bank-virtual">
+                 <input id="sn01" type="radio" class="pay-radio" name="bank-virtual"/>&nbsp;&nbsp;<label for="sn01">交通银行虚拟账户余额：20,000,00</label>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">充值</a>
+                 <input id="sn02" type="radio" class="pay-radio2" name="bank-virtual"/>&nbsp;&nbsp;<label for="sn02">招商银行虚拟账户余额：20,000,00</label>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">充值</a>
+            </div>
+            <div class="pay-font-two"><span>网银支付</span></div>
+      
+            <div class="pay-bank">
+                <input id="wy01" type="radio" class="pay-radio" name="bank"/><label for="wy01"><img src="Assets/images/zhaoshang.png" /></label>
+                <input id="wy02" type="radio" class="pay-radio2" name="bank"/><label for="wy02"><img src="Assets/images/jianshe.png" /></label>
+            </div>
+            <a href="#" id="paymoney" class="immediately-pay" >
+                <img src="Assets/images/my_shop_select.png" />
+
+            </a>
+             <!--浮动栏展示-->
+            <div class="exhibitionbar">
+                <a href="javascript:void(0);">
+                    <img src="Assets/images/shopcar.png" />
+                    <p class="ex_shop">购</p>
+                    <p class="ex_shop">物</p>
+                    <p class="ex_shop">车</p>
+                </a>
+                <a href="javascript:void(0);">
+                    <img src="Assets/images/money.png" /></a>
+                <a href="javascript:void(0);">
+                    <img src="Assets/images/like.png" /></a>
+                <a href="javascript:void(0);">
+                    <img src="Assets/images/collect.png" /></a>
+                <a href="#">
+                    <img src="Assets/images/top.png" class="ex_top" />
+                    <p class="ex_shop">top</p>
+                </a>
+            </div>
+    </div>
+    <div class="mask"></div>
+            <div class="pay-pop-up">
+              <p class="pop-font-one">请你在新打开的页面上完成付款！</p>
+                <p class="pop-font-two">付款前请不要关闭此窗口</p>
+                <div class="ok-on">
+                    <a href="#" class="Pay-ok">完成支付</a>
+                    <a href="#" class="Pay-no">付款遇到问题</a>
+                </div>
+            </div>
+        </div>
+
+        <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--浮动栏展示-->
+    <div class="exhibitionbar">
+        <a href="javascript:void(0);" class="shopping">
+            <img src="Assets/images/shopcar.png" />
+            <p class="ex_shop">购</p>
+            <p class="ex_shop">物</p>
+            <p class="ex_shop">车</p>
+        </a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/money.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/like.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/collect.png" /></a>
+        <a href="#">
+            <img src="Assets/images/top.png" class="ex_top" />
+            <p class="ex_shop">top</p>
+        </a>
+    </div>
+    <div class="shopquick">
+        <!--头部选择部分-->
+        <div class="city top">
+            <span class="top-all">
+                <input type="checkbox" name="all" /></span>
+            <span>全选</span>
+            <span class="top-look"><a href="#">全屏查看</a></span>
+        </div>
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>江苏省分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_04.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+       
+
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>天津市分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_01.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">736.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_02.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_03.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_05.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+        <div class="h1"></div>
+
+        <div class="city sm2-context">
+            <span class="select">已选择<span class="num">5</span>件</span>
+            <span class="allmoney">368.00</span>
+        </div>
+
+        <div class="city sm3-context">
+            <button type="button"></button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+           
+            $("#paymoney").click(function () {
+                $("body").attr("style", "overflow:hidden");
+                $(".mask").show();
+                $(".pay-pop-up").fadeIn(300);
+            });
+            $(".mask").click(function () {
+                $("body").attr("style", "");
+                $(".mask").hide();
+                $(".pay-pop-up").fadeOut(300);
+            });
+
+        });
+    </script>
+</body>
+</html>

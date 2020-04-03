@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>商品详情页面</title>
+    <link href="Assets/Fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/shopquick.css" rel="stylesheet" />
+    <link href="Assets/css/commodity_detail.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/Plugins/list/list.js"></script>
+    <script src="Assets/js/comm.js"></script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        你好，欢迎来到中国医药网！
+                        <a href="javascript:void(0);">请登录</a><span> | </span>
+                        <a href="javascript:void(0);">免费注册</a><span> | </span>
+                        <a href="javascript:void(0);">全国服务热线:</a>
+                        <a class="tel">400-000-0000</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  logo部分-->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <img src="Assets/images/trademark.png" alt="" />
+                    <img src="Assets/images/line.png" alt="" />
+                </div>
+                <div class="logo_pro">
+                    <a class="logo_a">全国医药一站式销售平台</a>
+                    <div class="country ">
+                        <div class="switchcity"><span class="area_icon"></span><span id="sitename">全国站</span><span class="down_icon"></span></div>
+                        <ul>
+                            <li class="hotcity">热门城市</li>
+                            <li><a data-id="1" href="javascript:void(0);">北京</a></li>
+                            <li><a data-id="2" href="javascript:void(0);">上海</a></li>
+                            <li><a data-id="3" href="javascript:void(0);">杭州</a></li>
+                            <li><a data-id="4" href="javascript:void(0);">天津</a></li>
+                            <li><a data-id="5" href="javascript:void(0);" class="cur">重庆</a></li>
+                            <li><a data-id="6" href="javascript:void(0);">湖北</a></li>
+                            <li><a data-id="7" href="javascript:void(0);">南京</a></li>
+                            <li><a data-id="8" href="javascript:void(0);">安徽</a></li>
+                            <li><a data-id="9" href="javascript:void(0);">辽宁</a></li>
+                            <li><a data-id="10" href="javascript:void(0);">湖南</a></li>
+                            <li><a data-id="11" href="javascript:void(0);">海南</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <input type="text" value="" class="inputText" style="height: 31px;" />
+                <img src="Assets/images/search.png" />
+                <div class="shop_opera">
+                    <a href="javascript:void(0);" class="shop_search">商品搜索</a>
+                    <a href="javascript:void(0);">店铺搜索</a>
+                    <a href="javascript:void(0);">快速搜索</a>
+                </div>
+                <p>
+                    <a class="hotsearch">热门搜索：</a>
+                    <a href="javascript:void(0);">阿莫西林胶囊</a><span> | </span>
+                    <a href="javascript:void(0);">感冒清热颗粒</a><span> | </span>
+                    <a href="javascript:void(0);">小儿感冒颗粒</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--主体部分-->
+    <div class="content">
+        <div class="crumb">
+            首页>中西药品>风湿骨科><span>骨质增生</span>
+        </div>
+
+        <div class="carousel">
+            <div class="scrolltab">
+                <span id="sLeftBtnA" class="sLeftBtnABan"></span>
+                <span id="sRightBtnA" class="sRightBtnA"></span>
+                <ul class="ulBigPic">
+                    <li class="liSelected">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity01.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity02.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity03.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity04.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity05.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity06.jpg"></a></i>
+                        </p>
+                    </li>
+                    <li class="">
+                        <p class="sPic">
+                            <i class="iBigPic"><a href="#"><img src="Assets/images/commodity07.jpg"></a></i>
+                        </p>
+                    </li>
+                </ul>
+                <!--ulBigPic end-->
+                <div class="dSmallPicBox">
+                    <div class="dSmallPic">
+                        <ul class="ulSmallPic" style="width: 2646px; left: 0px;" rel="stop">
+                            <li class="liSelected">
+                                <span class="sPic"><img src="Assets/images/commodity01.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity02.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity03.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity04.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity05.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity06.jpg"></span>
+                            </li>
+                            <li class="">
+                                <span class="sPic"><img src="Assets/images/commodity07.jpg"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <span id="sLeftBtnB" class="sLeftBtnB"></span>
+                    <span id="sRightBtnB" class="sRightBtnB"></span>
+                </div>
+                <!--dSmallPicBox end-->
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="parameters">
+            <h3>同仁堂 骨刺消痛液 300ml*12件</h3>
+            <p>销售区域：&nbsp;北京、天津、上海</p>
+            <p>商品名称：&nbsp;同仁堂 骨刺消痛液 </p>
+            <p>批准文号：&nbsp;国药准字Z11020352</p>
+            <p>生产厂商：&nbsp;北京同仁堂股份有限公司同仁堂药酒厂</p>
+            <p>规　　格：&nbsp;300ml</p>
+            <p>储存条件：&nbsp;应密闭，放在凉暗处</p>
+            <p>支付方式：&nbsp;使用预付款30%，剩余部分账期60天</p>
+            <p>产品价格: &nbsp;&nbsp;&nbsp;<span class="money">¥195.60</span></p>
+            <p class="buyarea"><span>购买数量: &nbsp;&nbsp;&nbsp;</span><a class="oper" id="jia">－</a><input id="num" type="text" value="1" /><a class="oper" id="jian">＋</a><span>&nbsp;&nbsp;盒&nbsp;&nbsp;&nbsp;&nbsp;库存33盒</span>
+            </p>
+            <p>配　　送：&nbsp;至 无锡</p>
+            <p>最低快递价：&nbsp;韵达快递 8.0元</p>
+            <p><button type="button" class="buy"></button><button type="button" class="cart"></button></p>
+        </div>
+
+        <div class="shopinfo">
+            <div class="title"><strong>商家信息</strong></div>
+            <div class="name">重庆远博医药有限公司</div>
+            <div class="name">
+                类型：经营企业<br /> 联系人：陈先森
+                <br /> 电话：15286369852
+                <br /> QQ：788216591
+                <br /> 地址 : 重庆市<br />
+            </div>
+            <div class="txtcen">
+                <button type="button">收藏本店</button>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="relationGoods">
+            <div class="title"><strong>相关商品</strong></div>
+            <div class="item">
+                <a class="itemImg" href="javascript:;"><img src="Assets/images/good_1.jpg" /></a>
+                <p class="itemTitle"><a class="titleA" href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                <p><span>¥5.5</span>/盒</p>
+                <p>修正药业</p>
+                <p>乙酰氨基酚乙酰氨基酚乙酰氨基酚乙酰氨基酚乙酰氨基酚乙酰氨基酚</p>
+                <p>规格 10粒/盒</p>
+                <p>国控天津有限公司</p>
+                <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+            </div>
+            <div class="item">
+                <a class="itemImg" href="javascript:;"><img src="Assets/images/good_1.jpg" /></a>
+                <p class="itemTitle"><a class="titleA" href="javascript:;">百服宁</a><a href="javascript:;">修正药业</a></p>
+                <p><span>¥5.5</span>/盒</p>
+                <p>乙酰氨基酚</p>
+                <p>规格 10粒/盒</p>
+                <p>国控天津有限公司</p>
+                <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="goodsDetail">
+            <ul class="tabs" id="tabs">
+                <li><a id="col1" href="javascript:void(0);">商品详情</a></li>
+                <li><a id="col2" href="javascript:void(0);">商品说明书</a></li>
+            </ul>
+            <ul class="tab_conbox" id="tab_conbox">
+                <li class="tab_con">
+                    <!--表格-->
+                    <table cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td>通用名</td>
+                                <td>测试数据</td>
+                                <td>生产厂家</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>商品名</td>
+                                <td>测试数据</td>
+                                <td>厂牌</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>剂型</td>
+                                <td>测试数据</td>
+                                <td>OTC标志</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>是否基药</td>
+                                <td>测试数据</td>
+                                <td>是否医保</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>是否拆零</td>
+                                <td>测试数据</td>
+                                <td>最小起订量</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>药品批准文号</td>
+                                <td>测试数据</td>
+                                <td>药品批准文号有效期</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>药品有效期</td>
+                                <td>测试数据</td>
+                                <td>存储条件</td>
+                                <td>测试数据</td>
+                            </tr>
+                            <tr>
+                                <td>处方类型</td>
+                                <td>测试数据</td>
+                                <td>箱规</td>
+                                <td>测试数据</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+
+                </li>
+                <li class="tab_con">
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                    <p>新华网大连9月10日电 世界经济论坛2015年新领军者年会（第九届“夏季达沃斯论坛”）于9月9日至11日在大连举办。国务院总理李克强今日出席夏季达沃斯开幕式并发表特别致辞。李克强指出，一旦经济出现滑出合理区间的迹象，我们将有足够的能力来应对，中国经济不会出现“硬着陆”，这不是空话。近几年，尽管经济下行压力较大，但我们没有超发货币，没有搞大规模强刺激，主要依靠改革增强经济活力，既稳定了经济，也为下一步调控留下了空间。</p>
+                </li>
+            </ul>
+        </div>
+
+        <!--浮动栏展示-->
+        <div class="exhibitionbar">
+            <a href="javascript:void(0);">
+                <img src="Assets/images/shopcar.png" />
+                <p class="ex_shop">购</p>
+                <p class="ex_shop">物</p>
+                <p class="ex_shop">车</p>
+            </a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/money.png" /></a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/like.png" /></a>
+            <a href="javascript:void(0);">
+                <img src="Assets/images/collect.png" /></a>
+            <a href="#">
+                <img src="Assets/images/top.png" class="ex_top" />
+                <p class="ex_shop">top</p>
+            </a>
+        </div>
+    </div>
+
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--浮动栏展示-->
+    <div class="exhibitionbar">
+        <a href="javascript:void(0);" class="shopping">
+            <img src="Assets/images/shopcar.png" />
+            <p class="ex_shop">购</p>
+            <p class="ex_shop">物</p>
+            <p class="ex_shop">车</p>
+        </a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/money.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/like.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/collect.png" /></a>
+        <a href="#">
+            <img src="Assets/images/top.png" class="ex_top" />
+            <p class="ex_shop">top</p>
+        </a>
+    </div>
+    <div class="shopquick">
+        <!--头部选择部分-->
+        <div class="city top">
+            <span class="top-all">
+                <input type="checkbox" name="all" /></span>
+            <span>全选</span>
+            <span class="top-look"><a href="#">全屏查看</a></span>
+        </div>
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>江苏省分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_04.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>天津市分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_01.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">736.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_02.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_03.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_05.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+        <div class="h1"></div>
+
+        <div class="city sm2-context">
+            <span class="select">已选择<span class="num">5</span>件</span>
+            <span class="allmoney">368.00</span>
+        </div>
+
+        <div class="city sm3-context">
+            <button type="button"></button>
+        </div>
+    </div>
+    <script>
+        $("#jia").on("click", function() {
+            if (parseInt($("#num").val()) > 1) {
+                $("#num").val(parseInt($("#num").val()) - 1);
+            }
+        });
+        $("#jian").on("click", function() {
+            $("#num").val(parseInt($("#num").val()) + 1);
+        });
+        $(function() {
+            jQuery.jqtab = function(tabtit, tab_conbox, shijian) {
+                $(tab_conbox).find("li").hide();
+                $(tabtit).find("li:first").addClass("thistab").show();
+                $(tab_conbox).find("li:first").show();
+                $(tabtit).find("li").bind(shijian, function() {
+                    document.body.scrollTop = 874;
+                    $(this).addClass("thistab").siblings("li").removeClass("thistab");
+                    var activeindex = $(tabtit).find("li").index(this);
+                    $(tab_conbox).children().eq(activeindex).show().siblings().hide();
+                    return false;
+                });
+            };
+            /*调用方法如下：*/
+            $.jqtab("#tabs", "#tab_conbox", "click");
+            $.jqtab("#tabs2", "#tab_conbox2", "mouseenter");
+            /* 20150917 add start */
+            $("#tabs").smartFloat(874);
+            /* 20150917 add end */
+        });
+        /* 20150917 add start */
+        ///js页面滚动浮动层智能定位(jQuery)实现  
+        ///调用：$("#popfloat").smartFloat($("#mainInfo").width() + 21);  
+        $.fn.smartFloat = function(width_p) {
+            var position = function(element) {
+                var top = element.position().top,
+                    pos = element.css("position");
+                $(window).scroll(function() {
+                    var scrolls = $(this).scrollTop();
+                    if (scrolls > top) {
+                        if (window.XMLHttpRequest) {
+                            element.css({
+                                position: "fixed",
+                                width: width_p,
+                                top: 0
+                            });
+                        } else {
+                            element.css({
+                                top: scrolls
+                            });
+                        }
+                    } else {
+                        element.css({
+                            position: "", //absolute  
+                            top: top
+                        });
+                    }
+                });
+            };
+            return $(this).each(function() {
+                position($(this));
+            });
+        };
+    </script>
+</body>
+
+</html>

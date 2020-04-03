@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/returnservicebuyer.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.11.2.min.js"></script>
+    <title>退化货服务（买方）</title>
+
+</head>
+<body>
+    <div class="messagecenter">
+        <!--导航-->
+        <div class="top_all">
+            <div class="top">
+                <!--个人中心-->
+                <div class="top_left">
+                    <a href="javascript:void(0);">您好，<span>****** </span></a>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/footer_05.png" />消息 <span class="icon-caret-down icon-large"></span></a>
+                    <a href="javascript:void(0);">退出 </a>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <img src="Assets/images/home.png" />
+                    <a href="javascript:void(0);">平台首页 &nbsp;</a>
+                    <img src="Assets/images/top_01.png" />
+                    <a href="javascript:void(0);">会员中心 &nbsp;</a><span> | </span>
+                    <img src="Assets/images/top_02.png" />
+                    <a href="javascript:void(0);">购物车 &nbsp;</a><span> | </span>
+                    <img src="Assets/images/top_03.png" />
+                    <a href="javascript:void(0);">收藏夹 &nbsp;</a><span class="icon-caret-down icon-large"></span>&nbsp;&nbsp;<span>| &nbsp;</span>
+                    <a href="javascript:void(0);">联系建议 &nbsp;</a><span> | &nbsp;</span>
+                    <a href="javascript:void(0);">网站导航 </a><span class="icon-caret-down icon-large"></span>
+                </div>
+            </div>
+        </div>
+        <div class="navigation_main">
+            <div class="navigation">
+                <span>会员中心</span>
+                <a href="javascript:void(0);">首页</a>
+                <img src="Assets/images/center_01.png" />
+                <a href="javascript:void(0);">账户安全</a>
+                <a href="javascript:void(0);">消息</a>
+                <a href="javascript:void(0);">我的认证</a>
+                <input type="button" value="搜索" class="btn" />
+                <input type="text" value="" class="serchar" />
+            </div>
+        </div>
+    </div>
+
+    <div class="all_main">
+        <div class="main">
+            <div class="nav_left">
+                <div class="personal_center_01">
+                    <img src="Assets/images/service_02.png" />
+                    <p>交易管理<img src="Assets/images/suppliersicon.png" /></p>
+                    <img src="Assets/images/infometion_03.png" />
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">已买到的商品</a></li>
+                            <li><a href="javascript:void(0);">退换货服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01">
+                    <img src="Assets/images/service_03.png" />
+                    <p>收藏管理<img src="Assets/images/suppliersicon.png" /></p>
+                    <img src="Assets/images/infometion_03.png" />
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">收藏的商品</a></li>
+                            <li><a href="javascript:void(0);">收藏的店铺</a></li>
+                            <li><a href="javascript:void(0);">交易的店铺</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01">
+                    <img src="Assets/images/service_04.png" />
+                    <p>资信管理<img src="Assets/images/suppliersicon.png" /></p>
+                    <img src="Assets/images/infometion_03.png" />
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">额度确认</a></li>
+                            <li><a href="javascript:void(0);">额度查询</a></li>
+                            <li><a href="javascript:void(0);">账期确认</a></li>
+                            <li><a href="javascript:void(0);">账期查询</a></li>
+                            <li><a href="javascript:void(0);">月结日查询</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01">
+                    <img src="Assets/images/service_05.png" />
+                    <p>资金管理<img src="Assets/images/suppliersicon.png" /></p>
+                    <img src="Assets/images/infometion_03.png" />
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">返利确认</a></li>
+                            <li><a href="javascript:void(0);">返利查询</a></li>
+                            <li><a href="javascript:void(0);">应付管理</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal_center_01">
+                    <img src="Assets/images/service_01.png" />
+                    <p>供应商管理<img src="Assets/images/suppliersicon.png" /></p>
+                    <img src="Assets/images/infometion_03.png" />
+                    <div class="password">
+                        <ul>
+                            <li><a href="javascript:void(0);">加盟确认</a></li>
+                            <li><a href="javascript:void(0);">供应商信息</a></li>
+                            <li><a href="javascript:void(0);">供应商关系视图</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav_right">
+                <!--退货服务-->
+                <div class="returnservice">
+                    <p>
+                        退换货服务
+                    </p>
+                    <div id="tabbox">
+                        <ul class="tabs" id="tabs">
+                            <li><a id="orderssert">退货订单查询</a></li>
+                            <li><a id="orders">换货订单</a></li>
+                        </ul>
+                        <ul class="tab_conbox" id="tab_conbox">
+                            <li class="tab_con">
+                                <p>
+                                    <span>订单编号:</span>
+                                    <input type="text" value="" />
+                                    <span>退货编号:</span>
+                                    <input type="text" value="" />
+                                    <span>退货申请时间:</span>
+                                    <select>
+                                        <option>2015/9/8</option>
+                                        <option>2015/9/9</option>
+                                        <option>2015/9/10</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <span>退货状态:</span>
+                                    <select>
+                                        <option>未退货</option>
+                                        <option>退货中</option>
+                                        <option>已退货</option>
+                                    </select>
+                                    <span>商品批号:</span>
+                                    <input type="text" value="" />
+                                    <a>查&nbsp;&nbsp;&nbsp;&nbsp;询</a>
+                                </p>
+                            </li>
+                            <li class="tab_con">
+                                <p>
+                                     ,,
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+                <!--表格-->
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>退货编号</td>
+                        <td>订单编号</td>
+                        <td>商品信息</td>
+                        <td>订单日期</td>
+                        <td>卖家</td>
+                        <td>交易金额</td>
+                        <td>退款金额</td>
+                        <td>申请时间</td>
+                    </tr>
+                    <tr>
+                        <td>41377318510008</td>
+                        <td>41377318510008</td>
+                        <td>
+                            <p>090973185</p>
+                            <p>止咳枇杷颗粒10g*10袋</p>
+                        </td>
+                        <td>2015-7-14</td>
+                        <td>重庆医药和平医药批发有限公司</td>
+                        <td>200.00</td>
+                        <td>200.00</td>
+                        <td>2015-7-14  10:40</td>
+                    </tr>
+                    <tr>
+                        <td>41377318510008</td>
+                        <td>41377318510008</td>
+                        <td>
+                            <p>090973185</p>
+                            <p>止咳枇杷颗粒10g*10袋</p>
+                        </td>
+                        <td>2015-7-14</td>
+                        <td>重庆医药和平医药批发有限公司</td>
+                        <td>200.00</td>
+                        <td>200.00</td>
+                        <td>2015-7-14  10:40</td>
+                    </tr>
+                    <tr>
+                        <td>41377318510008</td>
+                        <td>41377318510008</td>
+                        <td>
+                            <p>090973185</p>
+                            <p>止咳枇杷颗粒10g*10袋</p>
+                        </td>
+                        <td>2015-7-14</td>
+                        <td>重庆医药和平医药批发有限公司</td>
+                        <td>200.00</td>
+                        <td>200.00</td>
+                        <td>2015-7-14  10:40</td>
+                    </tr>
+                </table>
+                <!--分页-->
+                <div class="pagelist">
+                    <ul>
+                        <li><a href="javascript:void(0);">首页</a></li>
+                        <li><a href="javascript:void(0);">上一页</a></li>
+                        <li><a href="javascript:void(0);">1</a></li>
+                        <li><a href="javascript:void(0);">2</a></li>
+                        <li><a href="javascript:void(0);">3</a></li>
+                        <li><a href="javascript:void(0);">4</a></li>
+                        <li><a href="javascript:void(0);">5</a></li>
+                        <li><a href="javascript:void(0);">6</a></li>
+                        <li><a>...</a></li>
+                        <li><a href="javascript:void(0);">10</a></li>
+                        <li><a href="javascript:void(0);">下一页</a></li>
+                        <li><a href="javascript:void(0);">尾页</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul>
+                <li>
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li>常见问题</li>
+                <li>订购流程</li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li>银行转账</li>
+                <li>优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li>用户登录</li>
+                <li>找回密码</li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li>企业文化</li>
+                <li>联系客服</li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li>公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li>COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery.jqtab = function (tabtit, tab_conbox, shijian) {
+                $(tab_conbox).find("li").hide();
+                $(tabtit).find("li:first").addClass("thistab").show();
+                $(tab_conbox).find("li:first").show();
+                
+                $(tabtit).find("li").bind(shijian, function () {
+                    $(this).addClass("thistab").siblings("li").removeClass("thistab");
+                    var activeindex = $(tabtit).find("li").index(this);
+                    $(tab_conbox).children().eq(activeindex).show().siblings().hide();
+                    return false;
+                });
+            };
+            /*调用方法如下：*/
+            $.jqtab("#tabs", "#tab_conbox", "click");
+            $.jqtab("#tabs2", "#tab_conbox2", "mouseenter");
+            $("#orders").click(function () {
+                $("#orderssert").css({ "background-color": "#fff" }, { "color": "#333333" })
+            })
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

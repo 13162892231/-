@@ -1,0 +1,62 @@
+﻿.shop_index{width:1200px; margin :0px auto ;}
+.banner{width:1200px;margin:0px auto ;height:404px;}
+.shoplist_type{width:1210px; margin :0px auto ;overflow:hidden;}
+.shop_main_all{background-color:#f0f0f0;}
+.logo_all .logo_left  .logo .hospity {margin-top:10px; display:block;}
+.logo_all .logo_left .logo_pro .logo_a{font-weight:normal;color:#666666;}
+.city_div span{color:#0ca549; font-weight:bold;}
+.logo_all .logo_left .logo_pro div img {  margin-top: 3px;}
+.citity_div{*margin-left:0px;}
+.commoditype dl:hover a,.shoplist_type .commoditype dl:hover span {color:#777777;}
+.goods_list {margin-top:37px;overflow:hidden;  margin-bottom: 45px}
+.commoditype dl:hover{background-color:#fff;}
+.commoditype .back_col:hover{background-color:#f1f1f1;}
+.commoditype .back_col{background-color:#f1f1f1;}
+.commoditype .allshop{width:218px; height:45px;  background-color:#e4e4e4;}
+.commoditype .allshop a{line-height:45px; margin:17px 0 0 31px; font-weight:bold;font-size:16px;}
+.westmedicine:last-child{border:0px;}
+.allshop .good_search{margin-left:10px; margin-top:20px; width:180px;outline:none;}
+.allshop .goods_submit img {margin-left:46px; margin-top: 30px;}
+/*商品列表*/
+.commoditype{height:1273px; background-color:white;}
+.commodity_list{float:left;overflow:hidden;  width: 760px;   height: 1273px; background-color: white;}
+.commodity_list .goodsname{width:200px; float:left; padding-left:35px;line-height:25px;margin-top:45px;}
+.commodity_list .goodsname .goods_shops {display:block;width: 220px; height:230px; border:1px solid #e4e4e4;}
+.commodity_list .goodsname .goods_shops img {  margin-top: 40px; margin-left: 10px;}
+.commodity_list .goodsname p{text-align:left;  font-size: 14px}
+.goodsname .drup_name{margin-top:10px;}
+.goodsname .drup_name .chemical{font-weight :bold; font-size:16px;}
+.goodsname .drup_name .chemical_der{margin-left:-15px;} 
+.goodsname p.goods_price {font-weight:bold; color:red;font-size:18px;}
+.goodsname p.goods_price .singerle{font-size:14px; font-weight:normal; color:#333333;}
+
+
+/*右侧栏*/
+.column_right{float:left;  background-color: white;  width: 227px;height:1273px;}
+.column_right .column_right_title {margin-top:15px; font-weight:bold; font-size:16px;}
+.column_right .quality {margin-top:15px; border:1px dashed #a8a8a8;border-left:none; border-right:none;margin-right:12px;}
+.column_right .quality img{margin-top:15px;margin-bottom:15px;}
+.column_right .quality a{  margin-right: 9px; margin-left: 4px;}
+.sale_service p{color:#666666; line-height:30px;}
+.sale_service .after_service{ color:#333333;margin-top:15px;}
+.sale_service p img{margin-left:20px; margin-top:2px;*margin-top:0px;}
+.sale_service p a{color:white; width:69px; height:20px; line-height:20px; text-align:center; background-color:#4ebccc; display:block; float:right; margin-right:20px;border-radius:3px;  display: inline-block; *margin-top:-25px;}
+.evaluation{margin-top:15px; border:1px dashed #a8a8a8;border-left:none; border-right:none;margin-right:12px;}
+.evaluation p{ margin-top:15px;margin-bottom:15px;}
+.evaluation p img{margin-left: 9px;}
+.evaluation p a{margin-left:25px;}
+.evaluation .evaluation_datail {margin-top:20px;}
+.evaluation .evaluation_datail a {color:#0ca549;margin-left: auto;}
+.area_now {margin-top:15px;}
+.area_now img{margin-top:20px;}
+.area_now  p a{width:106px; height:20px;line-height:20px; text-align:center; background-color:#0a55a5; display:block; float:right; color:white; margin-right:30px;}
+.contactperson .contact_person{margin-top:15px;}
+.contactperson .contact_person span{margin-left:25px;}
+.contactperson p{line-height:20px;margin-bottom:10px;  width: 215px;}
+.contactperson p img{margin-left:25px;}
+.contactperson p a{ color:#3f76b2;}
+.contactperson input{width:73px; height:22px; background-color:#dcdcdc;color:#3f76b2; font-size:14px;margin:30px 0 0 60px;}
+
+/*轮播*/
+.swiper-pagination {right:50px;bottom:20px;}
+

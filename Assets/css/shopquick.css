@@ -1,0 +1,33 @@
+﻿*{ margin: 0px;padding: 0px;}
+.shopquick {display:none;}
+.shopquickanminal{width: 316px;font-size: 11px;display:block; position: fixed;top: 0px;right: 0;background-color:#fff;z-index:150;min-height:100%;border-left:3px solid #14a84f;}
+.shopquick .city{ width: 316px;}
+
+.shopquick .top{ background-color: #c7e7d2;height: 28px;line-height: 28px;}
+.shopquick .top-all{ margin-left: 10px;width: 150px;}
+.shopquick .top-look{margin-left: 200px; }
+.shopquick .top-look a{ text-decoration: none;color: black;}
+.shopquick .top-look a:visited  {color:black;} 
+.sm1{ margin-top: 10px;margin-bottom: 8px}
+.h1{ width: 100%;background-color: #d4d4d4;height: 1px;}
+.sm1-check{ margin-left: 10px;font-size: 10px;padding-top: 5px;}
+.sm1-moeny{ float: right;margin-right: 10px;}
+.sm1-context{ margin-top: 10px;margin-bottom: 15px;overflow: hidden;}
+.sm1-context-check{ margin-left: 15px;float: left;margin-top: 10px; }
+.sm1-context-img{ float: left;width: 52px;height: 35px;margin-left: 5px;}
+.sm1-context-img img{width: 52px;height: 35px;}
+.sm1-context-detail{ float: left;margin-left: 5px;height: 35px;}
+.sm1-context-detail p{ margin-top: 3px;}
+.sm1-context-moeny{ float: right;margin-right: 10px;height: 35px;line-height: 35px;}
+.divNumber{float: left;   width: 78px;height: 35px;}
+.divNumber a{ border-radius: 40px;border: 1px solid #d4d4d4;text-decoration: none;width: 15px;height: 15px;display: block;text-align: center;line-height: 15px;float: left;font-size: 17px;margin-top: 7px;}
+.number{ float: left;margin-left:10px;margin-top: 10px;}
+.reduction{ margin-left: 8px;}
+.add{margin-left: 8px;}
+
+/*结算*/
+.sm2-context{ margin-top: 20px;}
+.select{ margin-left: 13px;}
+.allmoney{ float: right;margin-right: 10px;color: red;font-weight: bold;}
+.sm3-context{ margin-top: 40px;margin-left: auto;margin-right: auto;width: 289px; }
+.sm3-context button{width: 289px;height: 42px; border: none;background-color: transparent;outline:none;background-image: url(../images/gosettlement.png);background-repeat:no-repeat;cursor: pointer; margin-left:13.5px;}

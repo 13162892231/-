@@ -1,0 +1,68 @@
+﻿.sub_all {background-color:#f0f0f0; overflow:hidden;}
+
+.sub_all .sub_shop {width:1200px; background-color:white; margin :0px auto ;overflow:hidden;  margin-bottom: 40px;}
+.submit_ord {width:1145px; margin:0px auto ;}
+.checks_order {border-bottom:1px solid #e1e1e1; margin-top:30px;}
+.checks_order p{font-size:16px;color:#333333;margin-bottom:15px;}
+.checks_order p b{color:#c7ead5;}
+.checks_order a{font-size:12px; float:right;}
+.submit_ord .shop_address p{ font-weight:bold;margin-top:10px;}
+.shop_address .arrive{ color:red;}
+.order_to{background-color:#c7ead5; height:40px; margin-top:15px;float:left;width:1144px;}
+.order_to p {line-height:40px; padding-left:50px;}
+.order_to  span{padding-left :30px;}
+.orders_to span{padding-left :30px;}
+.orders_to p {line-height:40px; padding-left:50px;}
+.invoice_info {margin-top:20px;}
+.invoice_info span{padding-right:30px;}
+.invoice_info a{color:#004fa2;}
+.order_to b{line-height:40px; font-size:14px; margin-left:15px;}
+.goods_datail {width:238px; height:238px; border:1px solid #dcdcdc; margin-top:10px; float:left;}
+.goods_datail .goods_type {padding :12px 0 0 14px; font-weight:bold; font-size:14px;}
+.goods_datail p a{width:79px; height:26px;border:1px solid #0ca549;color:#0ca549; line-height:26px; text-align:center; display:block;float:left;margin-left:20px; margin-right:10px;margin-top:15px;font-weight:bold;}
+.goods_datail .own{border:1px solid #004ea2;color:#004ea2; line-height:26px; text-align:center; display:block;float:left;margin-left:20px; margin-right:13px;margin-top:15px;font-weight:bold;}
+.submit_ord{overflow:hidden;margin-bottom:20px;}
+.goods_datail .goods_types {padding :57px 0 0 14px; font-weight:bold; font-size:14px;}
+.goods_datail select{width:150px;  margin-top: 5px;  margin-left: 15px;}
+.order_moneycar img{margin-left:345px; margin-top:20px;}
+.order_moneycar .shop_process{  padding: 23px 0 0 243px;}
+.order_moneycar .shop_process .talk{padding-left:99px;}
+.order_moneycar .shop_process a {padding-left:82px;font-size:15px; font-weight:bold;}
+.goods_datail_right { border:1px solid #dcdcdc; height:238px; width:895px; float:right;margin-top:10px;}
+
+
+.goods_datail_right a{font-weight:bold; margin-left:75px}
+.goods_datail_right .goods_datail_info{margin-left:222px;}
+.goods_datail_right .goods_datail_all{height:45px; line-height:45px; background-color:#c7ead5;}
+.good_img{ border:1px solid #e2e2e2; width:150px;height:150px;  margin-top: 20px; margin-left: 20px;float:left;}
+.good_img img{margin-top:15px; margin-left:10px;}
+.goods_introduct{float:left;margin-top:35px;line-height:40px; margin-left:15px;font-weight:bold;}
+.price_goods a{ margin-left:85px;}
+.price_goods{margin-top:47px;}
+.price_goods .number{color:red;}
+.price_goods .nub{color:#004fa2;font-weight:normal;}
+
+
+.goods_datail_second {width:238px; height:488px; border:1px solid #dcdcdc; margin-top:10px; float:left;}
+.goods_datail_second .goods_type {margin :12px 0 0 14px; font-weight:bold; font-size:14px;}
+.goods_datail_second p a{width:79px; height:26px;border:1px solid #0ca549;color:#0ca549; line-height:26px; text-align:center; display:block;float:left;margin-left:20px; margin-right:10px;margin-top:15px;font-weight:bold;}
+
+.goods_datail_second .own{border:1px solid #004ea2;color:#004ea2; line-height:26px; text-align:center; display:block;float:left;margin-left:20px; margin-right:13px;margin-top:15px;font-weight:bold;}
+.goods_datail_second .goods_types {margin :275px 0 0 14px; font-weight:bold; font-size:14px;}
+.goods_datail_second  select{width:150px;  margin-top: 5px;  margin-left: 15px;}
+.ritte_buyer {margin-top:30px;float:left;}
+.ritte_buyer p {font-weight:bold;}
+.ritte_buyer input {width:385px;}
+.pay_money{float:right;font-weight:bold; margin-top:80px;}
+.pay_money p{margin-right:30px;}
+.pay_money span{color:red;}
+.pay_datail {width:432px; height:148px; border:1px solid #0ca549;float:right;margin-top:115px;margin-right:-174px;}
+.pay_datail p{margin-top:5px;margin-left:15px;}
+.pay_datail span {font-weight:bold;}
+.pay_datail .payall_money {margin:40px 0 0 197px;}
+.pay_datail .payall_money a{font-weight:bold; color:red; font-size:20px;}
+.sunmit_orders{float:right;  margin-top: 300px; margin-right: -433px;}
+
+
+
+

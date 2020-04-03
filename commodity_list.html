@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>商品列表</title>
+    <link href="Assets/Fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/shopquick.css" rel="stylesheet" />
+    <link href="Assets/css/commodity_list.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/js/comm.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".lastType").on('click', function () {
+                if ($(this).hasClass("close")) {
+                    $(this).removeClass("close");
+                    $(this).addClass("open");
+                    $(this).html("收起");
+                    $(this).parent().css("height", "auto");
+                } else {
+                    $(this).removeClass("open");
+                    $(this).addClass("close");
+                    $(this).html("更多");
+                    $(this).parent().css("height", "32px");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        你好，欢迎来到中国医药网！
+                        <a href="javascript:void(0);">请登录</a><span> | </span>
+                        <a href="javascript:void(0);">免费注册</a><span> | </span>
+                        <a href="javascript:void(0);">全国服务热线:</a>
+                        <a class="tel">400-000-0000</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  logo部分-->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <img src="Assets/images/trademark.png" alt="" />
+                    <img src="Assets/images/line.png" alt="" />
+                </div>
+                <div class="logo_pro">
+                    <a class="logo_a">全国医药一站式销售平台</a>
+                    <div class="country ">
+                        <div class="switchcity"><span class="area_icon"></span><span id="sitename">全国站</span><span class="down_icon"></span></div>
+                        <ul>
+                            <li class="hotcity">热门城市</li>
+                            <li><a data-id="1" href="javascript:void(0);">北京</a></li>
+                            <li><a data-id="2" href="javascript:void(0);">上海</a></li>
+                            <li><a data-id="3" href="javascript:void(0);">杭州</a></li>
+                            <li><a data-id="4" href="javascript:void(0);">天津</a></li>
+                            <li><a data-id="5" href="javascript:void(0);" class="cur">重庆</a></li>
+                            <li><a data-id="6" href="javascript:void(0);">湖北</a></li>
+                            <li><a data-id="7" href="javascript:void(0);">南京</a></li>
+                            <li><a data-id="8" href="javascript:void(0);">安徽</a></li>
+                            <li><a data-id="9" href="javascript:void(0);">辽宁</a></li>
+                            <li><a data-id="10" href="javascript:void(0);">湖南</a></li>
+                            <li><a data-id="11" href="javascript:void(0);">海南</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <input type="text" value="" class="inputText" style="height: 31px;" />
+                <img src="Assets/images/search.png" />
+                <div class="shop_opera">
+                    <a href="javascript:void(0);" class="shop_search">商品搜索</a>
+                    <a href="javascript:void(0);">地铺搜索</a>
+                    <a href="javascript:void(0);">快速搜索</a>
+                </div>
+                <p>
+                    <a class="hotsearch">热门搜索：</a>
+                    <a href="javascript:void(0);">阿莫西林胶囊</a><span> | </span>
+                    <a href="javascript:void(0);">感冒清热颗粒</a><span> | </span>
+                    <a href="javascript:void(0);">小儿感冒颗粒</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--主体部分-->
+    <div class="content">
+        <div class="contentTop">
+            <div class="crumb">
+                首页>大类><span>小类</span>
+            </div>
+            <div class="topNumber">
+                <p>小类(共<span>15</span>个商品)</p>
+                <span class="count">搜索结果共2408件</span>
+            </div>
+            <ul class="type">
+                <li class="fristType">品牌:</li>
+                <li>全部</li>
+                <li class="item">
+                    <ul>
+                        <li>功达制药</li>
+                        <li class="cur">万通&nbsp;×</li>
+                        <li class="cur">齐鲁制药&nbsp;×</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li class="cur">齐鲁制药&nbsp;×</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li>欧姆龙</li>
+                        <li>欧姆龙</li>
+                        <li>汤成倍健</li>
+                        <li class="clear"></li>
+                    </ul>
+                </li>
+                <li class="lastType close">更多</li>
+            </ul>
+            <ul class="type">
+                <li class="fristType">类别:</li>
+                <li class="cur">全部&nbsp;×</li>
+                <li>功达制药</li>
+                <li>万通</li>
+                <li>齐鲁制药</li>
+                <li>汤成倍健</li>
+                <li>欧姆龙</li>
+                <li class="lastType close">更多</li>
+            </ul>
+            <ul class="type">
+                <li class="fristType">剂型:</li>
+                <li class="cur">全部&nbsp;×</li>
+                <li>功达制药</li>
+                <li>万通</li>
+                <li>齐鲁制药</li>
+                <li>汤成倍健</li>
+                <li>欧姆龙</li>
+                <li class="lastType close">更多</li>
+            </ul>
+            <ul class="type">
+                <li class="fristType">是否可购买:</li>
+                <li>
+                    <input type="checkbox" id="shi" /><label for="shi">是</label></li>
+                <li>
+                    <input type="checkbox" id="fou" /><label for="fou">否</label></li>
+            </ul>
+            <ul class="type">
+                <li class="fristType">分站:</li>
+                <li>
+                    <input type="checkbox" id="beijing" /><label for="beijing">北京</label></li>
+                <li>
+                    <input type="checkbox" id="shanghai" /><label for="shanghai">上海</label></li>
+                <li>
+                    <input type="checkbox" id="tianjing" /><label for="tianjing">天津</label></li>
+                <li>
+                    <input type="checkbox" id="chongqing" /><label for="chongqing">重庆</label></li>
+            </ul>
+
+            <div class="centerTitle">
+                <span>排序：</span>
+                <a href="javascript:;">相关度</a>
+                <a href="javascript:;" class="cur">销量</a>
+                <a href="javascript:;">价格</a>
+                <a href="javascript:;">上架时间</a>
+                <input type="checkbox" id="isgoods" /><label for="isgoods">仅显示有货</label>
+            </div>
+            <div class="centerBody">
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+                <div class="item">
+                    <a class="itemImg" href="javascript:;">
+                        <img src="Assets/images/good_1.jpg" /></a>
+                    <p class="itemTitle"><a href="javascript:;">发射点发射点发发射点发射点发发射点发射点发发射点发射点发</a></p>
+                    <p><span>¥5.5</span>/盒</p>
+                    <p>乙酰氨基酚&nbsp;&nbsp;修正药业</p>
+                    <p>规格 10粒/盒</p>
+                    <p>国控天津有限公司</p>
+                    <p class="operation"><a class="jionCart" href="javascript:;">加入购物车</a><a href="javascript:;">添加收藏</a></p>
+                </div>
+            </div>
+            <!--分页-->
+            <div class="pagelist">
+                <ul>
+                    <li><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">上一页</a></li>
+                    <li class="cur"><a href="javascript:void(0);">1</a></li>
+                    <li><a href="javascript:void(0);">2</a></li>
+                    <li><a href="javascript:void(0);">3</a></li>
+                    <li><a href="javascript:void(0);">4</a></li>
+                    <li><a href="javascript:void(0);">5</a></li>
+                    <li><a href="javascript:void(0);">6</a></li>
+                    <li><a>...</a></li>
+                    <li><a href="javascript:void(0);">10</a></li>
+                    <li><a href="javascript:void(0);">下一页</a></li>
+                    <li><a href="javascript:void(0);">尾页</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--浮动栏展示-->
+    <div class="exhibitionbar">
+        <a href="javascript:void(0);" class="shopping">
+            <img src="Assets/images/shopcar.png" />
+            <p class="ex_shop">购</p>
+            <p class="ex_shop">物</p>
+            <p class="ex_shop">车</p>
+        </a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/money.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/like.png" /></a>
+        <a href="javascript:void(0);">
+            <img src="Assets/images/collect.png" /></a>
+        <a href="#">
+            <img src="Assets/images/top.png" class="ex_top" />
+            <p class="ex_shop">top</p>
+        </a>
+    </div>
+    <div class="shopquick">
+        <!--头部选择部分-->
+        <div class="city top">
+            <span class="top-all">
+                <input type="checkbox" name="all" /></span>
+            <span>全选</span>
+            <span class="top-look"><a href="#">全屏查看</a></span>
+        </div>
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>江苏省分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_04.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+       
+
+        <!--公司名称-->
+        <div class="city sm1">
+            <span class="sm1-check">
+                <input type="checkbox" name="all" /></span>
+            <span>天津市分公司</span>
+            <span class="sm1-moeny">736.00</span>
+        </div>
+        <div class="h1"></div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_01.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">736.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_02.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_03.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+
+        <!--内容-->
+        <div class="city sm1-context">
+            <div class="sm1-context-check">
+                <input type="checkbox" name="all" />
+            </div>
+            <div class="sm1-context-img">
+                <img src="Assets/images/centerdrug_05.png" />
+            </div>
+            <div class="sm1-context-detail">
+                <p>三精双黄连口服液</p>
+                <p>10毫升*10支/盒</p>
+            </div>
+            <div class="divNumber">
+                <p><a href="javascript:;" class="reduction">-</a><label class="number">2</label><a href="javascript:;" class="add">+</a></p>
+            </div>
+            <div class="sm1-context-moeny">368.00</div>
+        </div>
+        <div class="h1"></div>
+
+        <div class="city sm2-context">
+            <span class="select">已选择<span class="num">5</span>件</span>
+            <span class="allmoney">368.00</span>
+        </div>
+
+        <div class="city sm3-context">
+            <button type="button"></button>
+        </div>
+    </div>
+    <script>
+        $(".retractall").click(function () {
+            $(".retract").toggle(300);
+        });
+    </script>
+</body>
+</html>

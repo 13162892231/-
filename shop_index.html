@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>店铺首页</title>
+    <link href="Assets/Plugins/swiper/dist2/idangerous.swiper.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/index.css" rel="stylesheet" />
+    <link href="Assets/css/shop_index.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/Plugins/swiper/dist2/idangerous.swiper.min.js"></script>
+    <script src="Assets/js/index.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        你好，欢迎来到中国医药网！
+                        <a href="javascript:void(0);">请登录</a><span> | </span>
+                        <a href="javascript:void(0);">免费注册</a><span> | </span>
+                        <a href="javascript:void(0);">全国服务热线:</a>
+                        <a class="tel">400-000-0000</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span class="center_icon"></span>
+                        <a href="javascript:void(0);">会员中心</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="shop_icon"></span>
+                        <a href="javascript:void(0);">购物车</a><span> | </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <span class="collection_icon"></span>
+                        <a href="javascript:void(0);">收藏夹 </a>
+                        <span>| &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">联系建议</a><span> | &nbsp;</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">网站导航 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  logo部分-->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <a class="hospity">
+                        <img src="Assets/images/shop_index_01.png" />
+                    </a>
+                </div>
+                <div class="logo_pro">
+                    <a class="logo_a">描述 物流 服务</a>
+                    <div class="countrity">
+                        <div class="citity_div">
+                            <span>4.7&nbsp;<img src="Assets/images/shop_index_02.png" /></span>
+                            <span>&nbsp;4.7&nbsp;<img src="Assets/images/shop_index_02.png" /></span>
+                            <span>&nbsp;4.7&nbsp;<img src="Assets/images/shop_index_02.png" /></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <input type="text" value="" class="inputText" style="height: 31px;" />
+                <img src="Assets/images/search.png" />
+                       <div class="shop_opera">
+                <a href="javascript:void(0);"class="shop_search">商品搜索</a>
+                <a href="javascript:void(0);">店铺搜索</a>
+                <a href="javascript:void(0);" >快速购买</a>
+                </div>
+                <p>
+                    <a class="hotsearch">热门搜索：</a>
+                    <a href="javascript:void(0);">阿莫西林胶囊</a><span> | </span>
+                    <a href="javascript:void(0);">感冒清热颗粒</a><span> | </span>
+                    <a href="javascript:void(0);">小儿感冒颗粒</a>
+                </p>
+            </div>
+        </div>
+        <!--菜单栏-->
+        <div class="menubar">
+            <h2>全部商品分类</h2>
+            <ul>
+                <li><a href="javascript:void(0);">首页</a></li>
+                <li><a href="javascript:void(0);">西药</a></li>
+                <li><a href="javascript:void(0);">中成药</a></li>
+                <li><a href="javascript:void(0);">生物制品</a></li>
+                <li><a href="javascript:void(0);">重要饮片</a></li>
+                <li class="specialarea"><a href="javascript:void(0);">特价专区</a></li>
+            </ul>
+        </div>
+        <!--轮播图-->
+
+    </div>
+    <div class="shop_main_all">
+             <div class="swiper-container banner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="Assets/images/shop_index_03.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Assets/images/shop_index_03.png" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="Assets/images/shop_index_03.png" />
+                            </div>
+                            <div class="swiper-slide">
+                               <img src="Assets/images/shop_index_03.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            <!--<img src="Assets/images/shop_index_03.png" />-->
+       <div class="goods_list">
+            <div class="shoplist_type">
+                <div class="commoditype">
+                    <div class="allshop">
+                        <a>店铺分类</a>
+                    </div>
+                    <dl class="back_col">
+                        <dt>
+                            <img src="Assets/images/type_icon_01_cur.png" originalsrc="type_icon_01.png" cursrc="type_icon_01_cur.png" />&nbsp;<span>西药</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);" class="westmed_01">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);" class="westmed_01">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <img src="Assets/images/type_icon_02_cur.png" originalsrc="type_icon_02.png" cursrc="type_icon_02_cur.png" />&nbsp;<span>中成药</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <dl class="back_col">
+                        <dt>
+                            <img src="Assets/images/type_icon_03_cur.png" originalsrc="type_icon_03.png" cursrc="type_icon_03_cur.png" />&nbsp;<span>中成药</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <img src="Assets/images/type_icon_04_cur.png" originalsrc="type_icon_04.png" cursrc="type_icon_04_cur.png" />&nbsp;<span>中药饮品</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="back_col">
+                        <dt>
+                            <img src="Assets/images/type_icon_04_cur.png" originalsrc="type_icon_04.png" cursrc="type_icon_04_cur.png" />&nbsp;<span>中药饮品</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="Assets/images/type_icon_04_cur.png" originalsrc="type_icon_04.png" cursrc="type_icon_04_cur.png" />&nbsp;<span>中药饮品</span></dt>
+                        <dd>
+                            <!--需循环读取数据-->
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药</a>
+                                <a href="javascript:void(0);">电解质</a>
+                                <a href="javascript:void(0);">酸碱平衡及</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <div class="allshop">
+                        <a>店铺搜索</a>
+                        <input type="text" class="good_search" placeholder="店铺名称" />
+                        <a href="javascript:void(0);" class="goods_submit">
+                            <img src="Assets/images/shop_index_submit.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <!--商品列表-->
+                <div class="commodity_list">
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                    <div class="goodsname">
+                        <a class="goods_shops" href="javascript:void(0);">
+                            <img src="Assets/images/shop_ex.png" />
+                        </a>
+                        <p class="drup_name">
+                            <a class="chemical">百服宁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="chemical_der">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修正药业</a>
+                        </p>
+                        <p>乙酰氨基酚</p>
+                        <p class="goods_price">￥5.50<a class="singerle">/盒</a></p>
+                        <p>规格 10粒/盒</p>
+                        <p>国控天津有限公司</p>
+                    </div>
+                </div>
+                <div class="column_right">
+                    <div class="column_right_title">
+                        <a>新型药房</a>
+                    </div>
+                    <div class="quality">
+                        <a>
+                            <img src="Assets/images/shop_index_04.png" /></a>
+                        <a>
+                            <img src="Assets/images/shop_index_05.png" /></a>
+                        <a>
+                            <img src="Assets/images/shop_index_06.png" /></a>
+                    </div>
+                    <div class="sale_service">
+                        <p class="after_service">店铺客服</p>
+                        <p>
+                            售前 琳达<img src="Assets/images/shop_index_07.png" />
+                            <a href="javascript:void(0);">和我联系</a>
+                        </p>
+                        <p>
+                            售后 艾希<img src="Assets/images/shop_index_07.png" />
+                            <a href="javascript:void(0);">和我联系</a>
+                        </p>
+                        <p>
+                            总监 投诉<img src="Assets/images/shop_index_07.png" />
+                            <a href="javascript:void(0);">和我联系</a>
+                        </p>
+                    </div>
+                    <div class="evaluation">
+                        <p>
+                            商品描述：
+                    <img src="Assets/images/shop_index_10.png" /><a>5.0</a>
+                        </p>
+                        <p>
+                            服务态度：
+                    <img src="Assets/images/shop_index_10.png" /><a>5.0</a>
+                        </p>
+                        <p>
+                            发货速度： 
+                    <img src="Assets/images/shop_index_10.png" /><a>5.0</a>
+                        </p>
+                        <p class="evaluation_datail"><a href="javascript:void(0);">查看评分详细>></a></p>
+                    </div>
+                    <div class="column_right_title">
+                        <a>联系方式</a>
+                    </div>
+                    <div class="area_now">
+                        <p>所在地区：&nbsp;&nbsp;&nbsp;&nbsp;<a>河北省石家庄</a></p>
+                        <img src="Assets/images/shop_index_09.png" />
+                    </div>
+                    <div class="contactperson">
+                        <p class="contact_person">联系人：<span>陈先生</span></p>
+                        <p>资格证书:<img src="Assets/images/shop_index_08.png" /></p>
+                        <p>互联网药品交易服务资格证书:<a>冀 C20090001</a></p>
+                        <p>互联网药品信息服务资格证书:<a>(冀)经营性-2006-0002</a></p>
+                        <input type="button" value="收藏本店" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--底部版权-->
+        <div class="footer">
+            <div class="bottom">
+                <ul class="userguide">
+                    <li class="guide">
+                        <img src="Assets/images/footer_01.png" />用户指南</li>
+                    <li class="problem">常见问题</li>
+                    <li class="process">订购流程</li>
+                </ul>
+                <ul>
+                    <li class="guide">
+                        <img src="Assets/images/footer_02.png" />网上支付</li>
+                    <li class="problem">银行转账</li>
+                    <li class="coupons">优惠券使用指南</li>
+                </ul>
+                <ul>
+                    <li class="guide">
+                        <img src="Assets/images/footer_03.png" />会员注册</li>
+                    <li class="problem">用户登录</li>
+                    <li class="process">找回密码</li>
+                </ul>
+                <ul>
+                    <li class="guide">
+                        <img src="Assets/images/footer_04.png" />关于我们</li>
+                    <li class="problem">企业文化</li>
+                    <li class="process">联系客服</li>
+                </ul>
+                <ul class="info">
+                    <li class="telephone">
+                        <img src="Assets/images/footer_05.png" />咨询电话:12345678</li>
+                    <li>
+                        <img src="Assets/images/footer_06.png" />服务邮箱:1234567@qq.com</li>
+                    <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                    <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

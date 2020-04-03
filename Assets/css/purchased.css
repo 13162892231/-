@@ -1,0 +1,56 @@
+﻿.purchased{background-color:white; width:1036px; height:1710px;float:left;}
+.supplier .supplier_left{height:1709px;}
+.purchased ul{margin:41px 0 0 31px;border-bottom:1px solid #dedede; padding-bottom:15px; width:976px;}
+.purchased ul li{float:left;border-right:1px solid #dedede;padding-right:40px; padding-left:40px; height:23px;}
+/*.purchased ul li a{color:#0ca549;}*/
+.order_search {overflow:hidden;margin: 31px 0 0 31px;}
+.order_search .ordersearch {width:369px;float:left; height:30px; }
+.order_search a{display:block; height:32px; width :78px; background-color:#a0a0a0; color:white;float:left;text-align:center; line-height:32px; }
+.areaTitle em.list{  background-position: -110px -34px;}
+
+.search input[type='text'].time_start {width: 81px;}
+.search span {color:#c2c2c2;}
+.search input[type='text']{width:189px;}
+.search select { width: 197px;}
+.search p{width: 200px;padding: 0 0 0 25px;}
+.search{margin-left:0px;width:1007px;}
+.search a{color:#004ea1; font-weight:bold; margin-top:5px; text-decoration:underline;  line-height: 40px;}
+.search .state{margin:0;}
+.state .search_data  {width:80px;float:left;}
+.search .datesearch{width:309px;}
+.search .hide_cancel{text-align:left ;margin-left:45px;  width: 0px; margin-top: 5px;}
+.search .latter{margin-top: 9px;}
+.search .later{  margin-left: 176px; margin-top: -4px;}
+
+/*商品订单详情状态*/
+.purchased  .commodity_status{border:1px solid #c2c2c2;width:977px; margin :60px 0 0 31px;}
+.purchased  .commodity_status ul{border-bottom:1px solid #e4e4e4;margin-top:20px;margin-left:0px;}
+.purchased  .commodity_status ul li{float:left; font-weight:bold; border:0px;padding-left:20px;}
+.commodity_status .shop_info{ padding-right:110px;}
+.commodity_status .order_infomation{height:30px;}
+.commodity_status .order_infomation a{margin-right:28px;font-weight:bold;line-height:30px;}
+.commodity_status .order_infomation .shop_info{margin-left:150px;}
+.order_listshop .order_products {padding-left:10px;}
+.commodity_status .order_num{height:42px;background-color:#0ca549;}
+.commodity_status .order_num a{ margin:0px 50px 0 22px ;line-height:42px;}
+.commodity_status .pur_introduct a{color:#0ca549;  margin-left: 21px; height: 40px; line-height: 40px;  font-weight: bold;}
+.commodity_status .order_all{ width:965px; margin:0px auto ;  margin-bottom: 20px;}
+.commodity_status .order_title{height:36px; background-color:#c7ead5;}
+.commodity_status .order_title a{line-height:36px; margin-left:21px;  margin-right: 45px}
+.order_all .order_listshop ul li {display:block;height:100px;padding-right:35px;padding-left:10px;}
+.order_all .order_listshop ul li p{font-weight:normal;margin-top:10px;}
+.order_all .order_border{border:1px solid #c2c2c2;}
+.purchased ul {width:auto;}
+.order_all .order_listshop  .order_upline .sure_order{width:62px;height:22px; background-color:#9b9b99;color:white;line-height:22px; text-align:center;  margin-left: -4px; border-radius:3px;  display: block;}
+.order_all table {margin-left:0px;width:958px;}
+table{margin-top:0px;}
+.order_all table tr td{border:0px;background-color:white;}
+.order_all .order_tit{ width:960px;background-color:#f4f4f4; margin:0px auto ;}
+table tbody tr:nth-child(even){background:#fff;}
+.order_border .live_order {border-left:1px solid #c2c2c2;}
+.order_border{border-bottom:1px solid #f5f5f5;}
+.order_border .live_order .sure_order{background-color:#a0a0a0; height:23px; color:white; display:block; border-radius:3px;}
+.order_border .live_order .look_datail{color:#0ca549;}
+.order_border tr{border-bottom:1px solid #c2c2c2;}
+
+

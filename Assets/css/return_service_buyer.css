@@ -1,0 +1,25 @@
+﻿.search{width:1003px;}
+.search strong{width:119px;}
+/*表格*/
+table{margin-left:31px;height:500px;}
+table thead th{padding:10px 18px;}
+
+/*选项卡*/
+.nav_right{position:relative;}
+.nav_right {float:left;background-color:white;height: 849px;width:1035px;border:1px solid #c2c2c2; border-left:none;}
+.nav_right .returnservice>p:first-child {font-size:16px; font-weight:bold;margin-top:25px; margin-left:31px;}
+.tabs li a#orderssert {display: block;padding: 0 10px;outline: none;background-color:#0ca549;  color: white;border-top-right-radius: 4px;border-top-left-radius: 4px;}
+.tabs li a#orders {display: block;padding: 0 10px;outline: none;background-color:white;  color: #333;}
+
+.crumb{padding-left:31px;}
+.search select{height:24px;}
+.search p{height:28px;}
+/*分页*/
+.pagelist{margin: 34px 0 0 32px;padding-bottom: 40px; width: 975px; text-align: right;}
+.pagelist ul{display:block; float: right;}
+.pagelist ul li { display:block; float: left; border: 1px solid #e7e7e7; height: 25px; line-height: 20px;  margin: 0px 2px;}
+.pagelist ul li.cur{border: 1px solid #14a84f;background-color: #14a84f;}
+.pagelist ul li a{display: block; padding: 0px 10px; line-height:22px;}
+.pagelist ul li.cur a{color: #fff;}
+.pagelist ul li:hover{border: 1px solid #14a84f;background-color: #14a84f;}
+.pagelist ul li:hover a{color: #fff;}
